@@ -7,17 +7,45 @@ GET http://localhost:7071/api/chat
 POST http://localhost:7071/api/data/upload_json
 Content-Type: application/json
 
-[
+{
+  "description": "This is a list of metadata for datasets released as open data from DARTS at JAXA's Institute of Space and Astronautical Science.",
+  "data": [
     {
-        "id": "3",
-        "title": "Azure Cognitive Services",
-        "content": "Azure Cognitive Services are a set of AI services that enable you to build intelligent applications with powerful algorithms using just a few lines of code. These services cover a wide range of capabilities, including vision, speech, language, knowledge, and search. They are designed to be easy to use and integrate into your applications. Cognitive Services are fully managed, scalable, and continuously improved by Microsoft. It allows developers to create AI-powered solutions without deep expertise in machine learning.",
-        "category": "AI + Machine Learning"
-    },
-    {
-        "id": "4",
-        "title": "Azure Storage",
-        "content": "Azure Storage is a scalable, durable, and highly available cloud storage service that supports a variety of data types, including blobs, files, queues, and tables. It provides a massively scalable object store for unstructured data. Storage supports data redundancy and geo-replication, ensuring high durability and availability. It offers a variety of data access and management options, including REST APIs, SDKs, and Azure Portal. You can secure your data using encryption at rest and in transit.",
-        "category": "Storage"
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "id": "darts:sln-l-ard-4-event-v1.0",
+      "name": "SLN-L-ARD-4-EVENT-V1.0",
+      "description": "SELENE MOON ARD 4 EVENT V1.0",
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sln-l-ard-4-event-v1.0",
+      "version": "version_name",
+      "keywords": [
+        "KAGUYA",
+        "SELENE",
+        "Planetary",
+        "PDS"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "sameAs": "https://doi.org/10.1234/1234567890",
+      "isAccessibleForFree": "true"
     }
-]
+  ]
+}
