@@ -1,0 +1,159 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:suzaku-collection",
+    "name": "Suzaku collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「すざく」は、2005年7月10日に打ち上げられた日本で5番目のX線天文衛星です。0.3keVから600keVの広いエネルギー範囲で高分解能の分光観測を行う。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "Suzaku is Japan's fifth X-ray satellite launched on July 10, 2005. Suzaku carries out high resolution spectroscopic observations in a wide energy range of ~0.3 keV to ~600 keV.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/suzaku/",
+    "keywords": [
+        "Suzaku",
+        "Astrophysics",
+        "X-ray"
+    ],
+    "hasPart": [
+      {
+          "name": "Suzaku dataset",
+          "@id": "darts:suzaku-data"
+      }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "ja"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "ja"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.nasa.gov/goddard/",
+                "sameAs": "https://ror.org/0171mag52",
+                "name": [
+                    {
+                        "@value": "GSFC > Goddard Space Flight Center",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "GSFC > ゴダード宇宙飛行センター",
+                        "@language": "ja"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/suzaku/public_list.html",
+            "description": "Suzaku Public Data List"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=suzaku",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+            "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/suzaku/publications/",
+            "description": "Suzaku Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/suzaku/instruments.html",
+            "description": "Suzaku Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/suzaku/analysis.html",
+            "description": "Suzaku Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/others/suzaku.html",
+            "description": "Suzaku page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://global.jaxa.jp/projects/sas/astro_e2/index.html",
+            "description": "Suzaku page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/astroe/astroegof.html",
+            "description": "Suzaku Guest Observer Facility (GOF) at NASA/GSFC HEASARC"
+        }
+    ],
+    "temporalCoverage":"2005-08-11/2014-09-23"
+}

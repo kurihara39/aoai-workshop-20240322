@@ -1,0 +1,278 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:halca-collection",
+    "name": "HALCA collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「はるか」(HALCA,MUSES-B)は、1997年2月12日に打ち上げらた国際的な電波天文学スペースミッションです。打ち上げ後、軌道上で直径8メートルの電波望遠鏡を展開しました。 地上の望遠鏡と協力し、多くの明るい活動的銀河中心核（巨大ブラックホール）を、世界最高の高空間分解能で観測しました。 2005年11月30日に「はるか」は運用を終了しました。「はるか」は、世界中の電波望遠鏡と協力して天体観測を行うスペースVLBI計画 (VLBI Space Observatory Programe, VSOP)の中心でした。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "HALCA (MUSES-B), the first astronomical satellite dedicated to Very-Long Baseline Interferometry (VLBI), was launched on its maiden flight by ISAS's M-V launch vehicle from Kagoshima Space Center on February 12, 1997. HALCA was the main player of the VLBI Space Observation Programme (VSOP).",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/halca/",
+    "keywords": [
+        "HALCA",
+        "Astrophysics",
+        "radio"
+    ],
+    "hasPart": [
+        {
+            "name": "HALCA dataset",
+            "@id": "darts:halca-data"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "jp"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "jp"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.nao.ac.jp/",
+                "sameAs": "https://ror.org/052rrw050",
+                "name": [
+                    {
+                        "@value": "NAOJ > National Astronomical Observatory of Japan",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "NAOJ > 国立天文台",
+                        "@language": "jp"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/publications/inoue.pdf",
+            "description": "Inoue, M. et al. (1993) Sub-Arcsecond Radio Astronomy - Space VLBI Project VSOP"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/publications/hirosawa.pdf",
+            "description": "Hirosawa, H. et al. (1994) Proceedings of the 19th International Symposium on Space Technology and Science - Design of the Space-VLBI Satellite MUSES-B"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1998AAS...192.1303F/abstract",
+            "description": "Fey, A. L. et al. (1998) American Astronomical Society - The USNO Radio Reference Frame Image Database"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/data/public_list.html",
+            "description": "HALCA Public Data List"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=halca",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/publications.html",
+            "description": "HALCA Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/instruments.html",
+            "description": "HALCA Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/analysis/",
+            "description": "Halca Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/vsop/index.html.en",
+            "description": "The VLBI Spave Observatory Programme (VSOP) page"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://darts.isas.jaxa.jp/astro/halca/vsop/index.html.ja",
+            "description": "VSOP計画 - The VLBI Spave Observatory Programme (VSOP) page"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.vsop.isas.jaxa.jp/",
+            "description": "Radio Astromony Group at ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/about/facilities/usuda.html",
+            "description": "Usuda Deep Space Center"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/about/facilities/uchinoura.html",
+            "description": "Uchinoura Space Center"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://www.nao.ac.jp/",
+            "description": "国立天文台 - National Astronomical Obserbatory of Japan (NAOJ)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://www.nro.nao.ac.jp/",
+            "description": "国立天文台 野辺山宇宙電波観測所 - Nobeyama Radio Observatory"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://ksrc.nict.go.jp/",
+            "description": "鹿島宇宙技術センター - Kashima Space Technology Center"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.jpl.nasa.gov/missions/space-very-long-baseline-interferometry-space-vlbi",
+            "description": "JPL Space VLBI Project"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://public.nrao.edu/",
+            "description": "National Radio Astronomy Observatory (NRAO)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.atnf.csiro.au/",
+            "description": "Australia Telescope National Facility"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.evlbi.org/",
+            "description": "European VLBI Network"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://greenbankobservatory.org/",
+            "description": "NRAO Green Bank OVLBI Station"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://public.nrao.edu/telescopes/vlba/",
+            "description": "NRAO Very Long Baseline Array"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://lassonde.yorku.ca/cress/",
+            "description": "Center for Research in Earth and Space Science(CRESS formerly CREST, ISTS)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ucalgary.ca/",
+            "description": "University of Calgary"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.cv.nrao.edu/2cmsurvey/",
+            "description": "The VLBA 15 GHz snapshot survey"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.asc.rssi.ru/radioastron/index.htm",
+            "description": "RadioAstron"
+        }
+    ],
+    "temporalCoverage": "1997-04-12/2003-10-06"
+}

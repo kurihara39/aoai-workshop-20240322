@@ -1,0 +1,174 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:xrism-collections",
+    "name": "XRISM collections",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "X線撮像分光ミッション（XRISM）は、ASTRO-H「ひとみ」に続く、日本で7番目のX線撮像・高分解能分光の世界を拓くX線観測衛星です。XRISMは、X線ミラーの焦点面に、待望のX線マイクロカロリーメータと、従来からの信頼性の高いX線広視野CCDカメラを搭載した花です。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "X-Ray Imaging and Spectroscopy Mission (XRISM) is the seventh Japanese X-ray observatory exploring the world of X-ray imaging and high-resolution spectroscopy, following ASTRO-H \"Hitomi\". XRISM is a flower equipped with a long-waited X-ray micro-calorimeter and a conventional and reliable X-ray wide-field CCD camera on the focal plane of X-ray Mirrors.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/xrism/",
+    "keywords": [
+        "XRISM",
+        "Astrophysics",
+        "X-ray"
+    ],
+    "hasPart": [
+      {
+          "name": "XRISM dataset",
+          "@id": "darts:xrism-data"
+      }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "ja"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "ja"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "http://www.nasa.gov",
+                "sameAs": "https://ror.org/027ka1x80",
+                "name": [
+                    {
+                        "@value": "NASA > National Aeronautics and Space Administration",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "NASA > アメリカ航空宇宙局",
+                        "@language": "ja"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.esa.int/",
+                "sameAs": "https://ror.org/03wd9za21",
+                "name": [
+                    {
+                        "@value": "ESA > European Space Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ESA > 欧州宇宙機関",
+                        "@language": "ja"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/sql.php?sql=SELECT%0D%0Aobservation_id%2C%0D%0Aobject_name%2C%0D%0Acenter_ra%2C%0D%0Acenter_dec%2C%0D%0Aroll_angle%2C%0D%0Aobservation_start_time%2C%0D%0Aobservation_end_time%2C%0D%0Aresolve_exposure%2C%0D%0Axtend_exposure%2C%0D%0Aprocessing_date%2C%0D%0Apublic_date%2C%0D%0Adistribution_date%2C%0D%0Aprocessing_version%2C%0D%0Adata_access_url%0D%0AFROM+xrism_master_data%0D%0Awhere+observation_start_time_mjd+%3E+60209%0D%0Aorder+by+observation_start_time+desc%0D%0A&format=html#searched",
+            "description": "XRISM Observation Log"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/sql.php?sql=SELECT+%0D%0Aobject_name%2Ccenter_ra%2Ccenter_dec%2C%0D%0Aproposal_type%2Cproposal_priority%2Cawarded_exposure%2Cpi_name%2Cproposal_title%2Cproposal_abstract%0D%0AFROM+xrism_proposal%0D%0AWHERE+proposal_priority+IN+%28%27A%27%2C+%27C%27%29+AND+center_RA+%3E+-1%0D%0Aorder+by+center_ra&format=html#searched",
+            "description": "XRISM Proposals"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=xrism",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2?center_lng=360&center_lat=0&zoom=-2&coord=galactic&selectedLayer=XRISM_RESOLVE_PROTECTED_FOV,XRISM_XTEND_PROTECTED_FOV,Constellation&Base=ABL_P_DSS2_color&Top=AL_P_RASS&TopAlpha=50&GraphicAlpha=100",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/xrism/instruments.html",
+            "description": "XRISM Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/xrism/analysis.html",
+            "description": "XRISM Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://xrism.isas.jaxa.jp/research/",
+            "description": "XRISM page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.xrism.jaxa.jp/",
+            "description": "XRISM page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/xrism/",
+            "description": "XRISM page by NASA/GSFC HEASARC"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://cosmos.esa.int/web/xrism",
+            "description": "XRISM page by ESA"
+        }
+    ],
+    "temporalCoverage":"2023-09-22/.."
+}

@@ -1,0 +1,270 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:vco-00020",
+    "name": "Venus Climate Orbiter Akatsuki Cloud Motion Vector Data Set",
+    "description": "This dataset contains cloud motion vector data acquired by the automated cloud tracking from images of the UVI and IR2 instruments of the Venus Climate Orbiter (VCO, also known as PLANET-C and AKATSUKI) spacecraft. This dataset consists of NetCDF files. This dataset is produced from the longitude-latitude map datasets.",
+    "url": "https://darts.isas.jaxa.jp/doi/vco/vco-00020.html",
+    "version": "Version: 1.3",
+    "keywords": [
+        "mission:AKATSUKI",
+        "mission:VCO",
+        "field:PlanetaryScience",
+        "field:PlanetaryAtmospheres",
+        "observation:Ultraviolet",
+        "observation:Infrared",
+        "target:Planet",
+        "other:PDS"
+    ],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "isBasedOn": [
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00001",
+            "name": "Venus Climate Orbiter Akatsuki SPICE Kernel PDS3 dataset",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00001.html",
+                "https://doi.org/10.17597/isas.darts/vco-00001"
+            ],
+            "version": "Version: 1.0"
+        },
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00009",
+            "name": "Venus Climate Orbiter Akatsuki IR2 Calibrated Data PDS3 dataset",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00009.html",
+                "https://doi.org/10.17597/isas.darts/vco-00009"
+            ],
+            "version": "Version: 1.0"
+        },
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00016",
+            "name": "Venus Climate Orbiter Akatsuki UVI Longitude-Latitude Map Data",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00016.html",
+                "https://doi.org/10.17597/isas.darts/vco-00016"
+            ],
+            "version": "Version: 1.1"
+        }
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-2296-1975",
+                "givenName": "Takeshi",
+                "familyName": "HORINOUSHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "Takeshi, HORINOUSHI"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "堀之内 武"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.global.hokudai.ac.jp/",
+                    "sameAs": "https://ror.org/02e16g702",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Hokkaido University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "北海道大学"
+                        }
+                    ]
+                }
+            },           
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7666-4442",
+                "givenName": "Kazunori",
+                "familyName": "OGOHARA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OGOHARA, Kazunori"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "小郷原 一智"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kyoto-su.ac.jp/index-e.html",
+                    "sameAs": "https://ror.org/05t70xh16",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Kyoto Sangyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "京都産業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-1060-3986",
+                "givenName": "Toru",
+                "familyName": "KOUYAMA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KOUYAMA, Toru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "神山 徹"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "@value": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4629-6279",
+                "givenName": "Masahiro",
+                "familyName": "TAKAGI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "TAKAGI, Masahiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "高木 征弘"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kyoto-su.ac.jp/index-e.html",
+                    "sameAs": "https://ror.org/05t70xh16",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Kyoto Sangyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "京都産業大学"
+                        }
+                    ]
+                }
+            }
+        ]
+    },                        
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00020",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "NetCDF",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds3/extras/vco_cmv_v1.3/"
+        }
+    ],
+    "temporalCoverage": "../..",
+    "citation": [
+        "OGOHARA, K. et al. (2017), Earth, Planets and Space - Overview of Akatsuki data products: definition of data levels, method and accuracy of geometric correction https://doi.org/10.1186/s40623-017-0749-5",
+        "OGOHARA, K. et al. (2012), Icaruse - Automated cloud tracking system for the Akatsuki Venus Climate Orbiter data https://doi.org/10.1016/j.icarus.2011.05.017",
+        "Ikegawa, S. and Horinouchi, T. (2016), Icarus - Improved automatic estimation of winds at the cloud top of Venus using superposition of cross-correlation surfaces https://doi.org/10.1016/j.icarus.2016.01.018",
+        "Horinouchi, T. et al. (2017), Measurement Science and Technology - Image velocimetry for clouds with relaxation labeling based on deformation consistency https://doi.org/10.1088/1361-6501/aa695c",
+        "Horinouchi, T. et al. (2020), Science - How waves and turbulence maintain the super-rotation of Venus' atmosphere https://doi.org/10.1126/science.aaz4439"
+    ]
+}

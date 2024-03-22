@@ -1,0 +1,290 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hinode-level0",
+    "name": "Hinode Level 0 data",
+    "description": "Hinode solar observation data provided by DARTS at ISAS/JAXA",
+    "url": "https://data.darts.isas.jaxa.jp/pub/hinode/",
+    "keywords": [
+        "Hinode",
+        "Solar Physics",
+        "Sun"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": true,
+    "hasPart": [
+        {
+            "@type": "Dataset",
+            "name": "XRT level0 data",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/fits",
+                "description": "fits image data",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/xrt/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "EIS level0 data",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/fits",
+                "description": "fits image data",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/eis/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "SOT level0 data",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/fits",
+                "description": "fits image data",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/sot/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "common house keeping data",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "application/fits",
+                "description": "fits image data",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/cmn/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "SOT spmap data",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "applimageication/fits",
+                "description": "fits image data",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/spmap/"
+            },
+            "isBasedOn": {
+                "@type": "CreativeWork",
+                "name": "SOT level0 data",
+                "publisher": "ISAS/JAXA",
+                "url": "https://data.darts.isas.jaxa.jp/pub/hinode/sot/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "XRT Quick-Look",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/png",
+                "description": "png image",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/ql/xrt/level0/"
+            },
+            "isBasedOn": {
+                "@type": "CreativeWork",
+                "name": "XRT level0 data",
+                "publisher": "ISAS/JAXA",
+                "url": "https://data.darts.isas.jaxa.jp/pub/hinode/xrt/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "EIS Quick-Look",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/png",
+                "description": "png image",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/ql/eis/level0/"
+            },
+            "isBasedOn": {
+                "@type": "CreativeWork",
+                "name": "EIS level0 data",
+                "publisher": "ISAS/JAXA",
+                "url": "https://data.darts.isas.jaxa.jp/pub/hinode/eis/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "SOT Quick-Look",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/png",
+                "description": "png image",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/ql/sot/level0/"
+            },
+            "isBasedOn": {
+                "@type": "CreativeWork",
+                "name": "SOT level0 data",
+                "publisher": "ISAS/JAXA",
+                "url": "https://data.darts.isas.jaxa.jp/pub/hinode/sot/level0/"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "name": "SPMAP Quick-Look",
+            "description": "Informative description of the first subdataset...",
+            "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+            "creator": {
+                "@type": "Organization",
+                "name": "ISAS > Institute of Space and Astronautical Science",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            "distribution": {
+                "@Type": "DataDownload",
+                "encodingFormat": "image/png",
+                "description": "png image",
+                "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/ql/spmap/level0/"
+            },
+            "isBasedOn": {
+                "@type": "CreativeWork",
+                "name": "SOT spmap data",
+                "publisher": "ISAS/JAXA",
+                "url": "https://data.darts.isas.jaxa.jp/pub/hinode/darts/spmap/"
+            }
+        }
+    ],
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "funder": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/00tgqzw13",
+        "name": "National Weather Service"
+    },
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "data.gov"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "FITS",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/hinode/"
+        }
+    ],
+    "temporalCoverage": "2006-12-01/.."
+}

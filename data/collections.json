@@ -1,0 +1,3602 @@
+{
+  "description": "Information on data collections available as open data from DARTS at JAXA's Institute of Space and Astronautical Science. The collection is created one file per satellite and spacecraft project.",
+  "data": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:bice-collection",
+      "name": "BICE collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "1991\u5e74\u30681992\u5e74\u306b\u3001\u6975\u4f4e\u6e29\u30d5\u30a1\u30d6\u30ea\u30fc\u30da\u30ed\u30fc\u5206\u5149\u5668\u3092\u5099\u3048\u305f\u6c17\u7403\u642d\u8f09\u671b\u9060\u93e1(BICE, the Balloon-borne Infrared Carbon Explorer \u6c17\u7403\u642d\u8f09\u8d64\u5916\u7dda\u70ad\u7d20\u63a2\u67fb\u6a5f)\u3092\u7528\u3044\u3066\u3001158\u30df\u30af\u30ed\u30f3\u306b\u304a\u3051\u308b[CII]\u7dda\u653e\u5c04\u306e\u5e83\u7bc4\u306a\u9280\u6cb3\u9762\u30b5\u30fc\u30d9\u30a4\u304c\u884c\u308f\u308c\u305f(Okuda et al. 1994)\u3002\u9280\u6cb3\u7d4c\u5ea6-106 [deg] \u304b\u3089+26 [deg] \u307e\u3067\u3001\u9280\u6cb3\u7def\u5ea6\u00b15 [deg] \u307e\u3067\u306e[CII]\u7dda\u306e\u7a4d\u5206\u5f37\u5ea6\u3092\u7cbe\u5bc6\u306b\u6e2c\u5b9a\u3057\u305f\u3002[CII]\u7dda\u767a\u5149\u306f\u3001\u4e2d\u7a0b\u5ea6\u306e\u96fb\u96e2\u9818\u57df\u3067\u751f\u6210\u3055\u308c\u3001\u661f\u9593\u7a7a\u9593\u306b\u304a\u3051\u308b\u7269\u7406\u7684\u30fb\u5316\u5b66\u7684\u904e\u7a0b\u3084\u9280\u6cb3\u7cfb\u306e\u5927\u57df\u7684\u306a\u69cb\u9020\u306e\u91cd\u8981\u306a\u30d7\u30ed\u30fc\u30d6\u3068\u3057\u3066\u5229\u7528\u3055\u308c\u3066\u3044\u308b\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "An extensive galactic plane survey of [CII] line emission at 158 microns has been made in 1991 and 1992 by using a balloon-borne telescope (BICE, the Balloon-borne Infrared Carbon Explorer) with a cryogenically cooled Fabry-Perot spectrometer (Okuda et al. 1994). Integrated intensities of the extended [CII] line emission from -106 [deg] to +26 [deg] in galactic longitude and \u00b15 [deg] in galactic latitude were precisely measured. The [CII] line emission is generated in moderately ionized region, and used as an important probe of physical and chemical processes in the interstellar space and global structure of the Galaxy.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/bice/",
+      "keywords": [
+        "BICE",
+        "Astrophysics",
+        "Infrared",
+        "CII"
+      ],
+      "hasPart": [
+        {
+          "name": "BICE dataset",
+          "@id": "darts:bice-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1016/1350-4495(94)90097-3",
+          "description": "Okuda, H. et al. (1994) Infrared Physics & Technology - Large scale [CII] line emission in the galaxy observed by stratospheric balloons"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/bice/instruments.html",
+          "description": "BICE Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/bice/publications.html",
+          "description": "BICE Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/bice_E.html",
+          "description": "BICE project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/balloons/",
+          "description": "Scientific Balloon Project Page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://global.jaxa.jp/projects/sas/balloon/",
+          "description": "Scientific Balloon Project Page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/",
+          "description": "Laboratory of Infrared Astrophysics (LIRA) at ISAS/JAXA"
+        }
+      ],
+      "temporalCoverage": "1991/1992"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:imap-collection",
+      "name": "IMAP collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/imap",
+      "version": "version_name",
+      "keywords": [
+        "IMAP",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:tenma-collection",
+      "name": "Tenma collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u3066\u3093\u307e\u300d\uff08Astro-B\u30011983\u5e742\u670820\u65e5\u6253\u3061\u4e0a\u3052\uff09\u306f\u3001\u300c\u306f\u304f\u3061\u3087\u3046\u300d\uff081979\u5e74\u6253\u3061\u4e0a\u3052\uff09\u306b\u7d9a\u304f\u65e5\u672c\u30672\u756a\u76ee\u306eX\u7dda\u5929\u6587\u885b\u661f\u3067\u3042\u308b\u3002\u9ad8\u611f\u5ea6\u30b7\u30f3\u30c1\u30ec\u30fc\u30b7\u30e7\u30f3\u6bd4\u4f8b\u8a08\u6570\u7ba1\uff08SPC\uff09\u3092\u642d\u8f09\u3057\u3001\u591a\u304f\u306e\u9280\u6cb3\u7cfb\u30fb\u9280\u6cb3\u7cfb\u5916\u5929\u4f53\u306eX\u7dda\u5206\u5149\u3092\u884c\u3044\u307e\u3057\u305f\u30021989\u5e741\u670819\u65e5\u3001\u300c\u3066\u3093\u307e\u300d\u306f\u5927\u6c17\u570f\u306b\u518d\u7a81\u5165\u3057\u307e\u3057\u305f\u3002 \u300c\u3066\u3093\u307e\u300d\u306e\u30c6\u30ec\u30e1\u30c8\u30ea\u30c7\u30fc\u30bf\u306f\u3001\u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u672c\u90e8\u306eSIRIUS\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u30b7\u30b9\u30c6\u30e0\u306b\u4fdd\u5b58\u3055\u308c\u3066\u3044\u307e\u3059\u3002DARTS\u3067\u306f\u3001\u300c\u3066\u3093\u307e\u300d\u306e\u89b3\u6e2c\u30ed\u30b0\u3092\u30a2\u30fc\u30ab\u30a4\u30d6\u3057\u3066\u3044\u307e\u3059\u3002\u30c7\u30fc\u30bf\u51e6\u7406\u30bd\u30d5\u30c8\u3084\u89e3\u6790\u30bd\u30d5\u30c8\u306f\u30a2\u30fc\u30ab\u30a4\u30d6\u5316\u3055\u308c\u3066\u3044\u306a\u3044\u305f\u3081\u3001\u5929\u99ac\u306e\u79d1\u5b66\u7684\u306a\u30c7\u30fc\u30bf\u89e3\u6790\u306f\u30b5\u30dd\u30fc\u30c8\u3067\u304d\u306a\u3044\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "Tenma (Astro-B; launched Feb 20, 1983) was Japan's second X-ray satellite following its predecessor Hakucho (launched in 1979). Tenma carried sensitive scintillation proportional counters (SPC), with which X-ray spectroscopy of many Galactic and extra Galactic sources have been carried out. Tenma reentered atmosphere ion January 19, 1989. Tenma raw telemetry data are archived at ISAS in the SIRIUS database system. At DARTS, we archive observation log of Tenma. Data processing software and analysis software have not been archived, so we may not support scientific data analysis of Tenma.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/tenma/",
+      "keywords": [
+        "Tenma",
+        "Astrophysics",
+        "X-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "Tenma dataset",
+          "@id": "darts:tenma-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/tenma/tenma_obslog.html",
+          "description": "Tenma Observatopn Log"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/tenma/bibliography_83Feb_87Feb.pdf",
+          "description": "Tenma Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/tenma/instruments.html",
+          "description": "Tenma Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/tenma.html",
+          "description": "Tenma page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/tenma/tenma.html",
+          "description": "Tenma page by NASA/GSFC HEASARC"
+        }
+      ],
+      "temporalCoverage": "1983-02-20/1989-01-19"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:glims-collection",
+      "name": "GLIMS collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/glims",
+      "version": "version_name",
+      "keywords": [
+        "GLIMS",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:sakigake-collection",
+      "name": "Sakigake collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/planet/pds/pds_sakigake.html.en",
+      "keywords": [
+        "Sakigake",
+        "Planetary Science",
+        "Comet",
+        "1P/Halley"
+      ],
+      "hasPart": [
+        {
+          "name": "SAKIGAKE INTERPLANETARY MAGNETIC FIELD DATA V 1.0",
+          "@id": "darts:sakig-c-imf-3-rdr-halley-v1.0"
+        },
+        {
+          "name": "SAKIGAKE SOLAR WIND EXPERIMENT DATA V1.0",
+          "@id": "darts:sakig-c-sow-3-rdr-halley-v1.0"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "temporalCoverage": "1986-03-10/1986-03-13"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:reimei-collection",
+      "name": "REIMEI collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/reimei",
+      "version": "version_name",
+      "keywords": [
+        "REIMEI",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:satellite-collections",
+      "name": "Template for science satellite data collections",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://data.darts.isas.jaxa.jp/pub",
+      "version": "version_name",
+      "keywords": [
+        "Satellite",
+        "Bunya-name",
+        "etc"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:suzaku-collection",
+      "name": "Suzaku collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u3059\u3056\u304f\u300d\u306f\u30012005\u5e747\u670810\u65e5\u306b\u6253\u3061\u4e0a\u3052\u3089\u308c\u305f\u65e5\u672c\u30675\u756a\u76ee\u306eX\u7dda\u5929\u6587\u885b\u661f\u3067\u3059\u30020.3keV\u304b\u3089600keV\u306e\u5e83\u3044\u30a8\u30cd\u30eb\u30ae\u30fc\u7bc4\u56f2\u3067\u9ad8\u5206\u89e3\u80fd\u306e\u5206\u5149\u89b3\u6e2c\u3092\u884c\u3046\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "Suzaku is Japan's fifth X-ray satellite launched on July 10, 2005. Suzaku carries out high resolution spectroscopic observations in a wide energy range of ~0.3 keV to ~600 keV.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/suzaku/",
+      "keywords": [
+        "Suzaku",
+        "Astrophysics",
+        "X-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "Suzaku dataset",
+          "@id": "darts:suzaku-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "ja"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "ja"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.nasa.gov/goddard/",
+            "sameAs": "https://ror.org/0171mag52",
+            "name": [
+              {
+                "@value": "GSFC > Goddard Space Flight Center",
+                "@language": "en"
+              },
+              {
+                "@value": "GSFC > \u30b4\u30c0\u30fc\u30c9\u5b87\u5b99\u98db\u884c\u30bb\u30f3\u30bf\u30fc",
+                "@language": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/suzaku/public_list.html",
+          "description": "Suzaku Public Data List"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=suzaku",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+          "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/suzaku/publications/",
+          "description": "Suzaku Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/suzaku/instruments.html",
+          "description": "Suzaku Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/suzaku/analysis.html",
+          "description": "Suzaku Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/others/suzaku.html",
+          "description": "Suzaku page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://global.jaxa.jp/projects/sas/astro_e2/index.html",
+          "description": "Suzaku page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/astroe/astroegof.html",
+          "description": "Suzaku Guest Observer Facility (GOF) at NASA/GSFC HEASARC"
+        }
+      ],
+      "temporalCoverage": "2005-08-11/2014-09-23"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:maxi-collection",
+      "name": "MAXI (Monitor of All-sky X-ray Image) data collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "MAXI (\u5168\u5929X\u7dda\u76e3\u8996\u88c5\u7f6e)\u306f\u56fd\u969b\u5b87\u5b99\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3\u300c\u304d\u307c\u3046\u300d\u8239\u5916\u5b9f\u9a13\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306b\u53d6\u308a\u4ed8\u3051\u3089\u308c\u305f\u89b3\u6e2c\u88c5\u7f6e\u3067\u3001JAXA\u3068\u7406\u7814\u306e\u5354\u529b\u306e\u3082\u3068\u306b\u958b\u767a\u3055\u308c\u307e\u3057\u305f. MAXI\u306f\u5e83\u3044\u8996\u91ce\u3092\u3082\u3061\u3001\u904e\u53bb\u306e\u540c\u7a2e\u306e\u89b3\u6e2c\u88c5\u7f6e\u306b\u6bd4\u3079\u30661\u6841\u9ad8\u3044\u691c\u51fa\u611f\u5ea6\u3092\u6301\u3063\u3066\u3044\u307e\u3059\u3002MAXI\u306e\u89b3\u6e2c\u306f2009\u5e74\u306b\u958b\u59cb\u3055\u308c\u307e\u3057\u305f\u3002\u3088\u308a\u8a73\u7d30\u306a\u60c5\u5831\u306f\u7406\u5316\u5b66\u7814\u7a76\u6240\u306e\u30db\u30fc\u30e0\u30da\u30fc\u30b8\u306b\u63b2\u8f09\u3055\u308c\u3001\u305d\u3053\u3067\u306f\u5929\u4f53\u3054\u3068\u306e\u5149\u5ea6\u30c7\u30fc\u30bf\u306a\u3069\u8a73\u7d30\u306a\u30c7\u30fc\u30bf\u30d7\u30ed\u30c0\u30af\u30c8\u3082\u5165\u624b\u3067\u304d\u307e\u3059\u3002MAXI\u306f2\u3064\u306e\u89b3\u6e2c\u88c5\u7f6e\u3001\u30ac\u30b9\u30b9\u30ea\u30c3\u30c8\u30ab\u30e1\u30e9(GSC)\u3068\u30bd\u30ea\u30c3\u30c9\u30b9\u30c6\u30fc\u30c8\u30fb\u30b9\u30ea\u30c3\u30c8\u30ab\u30e1\u30e9(SSC)\u3092\u3057\u3066\u3044\u307e\u3059\u3002GSC\u306f12\u53f0\u306e1\u6b21\u5143\u30ac\u30b9\u6bd4\u4f8b\u8a08\u6570\u7ba1\u304b\u3089\u69cb\u6210\u3055\u308c\u30012-30 keV\u306b\u611f\u5ea6\u304c\u3042\u308a\u307e\u3059\u3002SSC\u306f\u305d\u308c\u305e\u308c16\u679a\u306eCCD\u30c1\u30c3\u30d7\u3092\u4f7f\u3063\u305f2\u53f0\u306e\u30ab\u30e1\u30e9\u304b\u3089\u69cb\u6210\u3055\u308c\u30010.5-12 keV\u306b\u611f\u5ea6\u3092\u6301\u3061\u307e\u3059.",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "MAXI (Monitor of All-sky X-ray Image) is mounted on the Japanese Experimental Module (KIBO) of the International Space Station. MAXI has been developed in collaboration of JAXA and RIKEN. MAXI has not only a wide field of view, but also a higher sensitivity than previous all-sky monitors by an order of magnitude. The observation has started in August 2009. More detailed information on MAXI can be found in the MAXI homepage at RIKEN, which produces and archives high-level data products such as images and light-curves for public release. MAXI carries two types of instruments, Gas Slit Camera (GSC) and Solid-state Slit Camera (SSC). The GSC is composed of 12 one-dimensional PSPCs (counter ID = 0-9, A, B), and covers the 2 -- 30 keV energy range with an energy resolution of 18 % (5.9 keV). The SSC is composed of two cameras, SSC-H and SSC-Z, each has 16 chips of X-ray CCDs, and covers the 0.5 -- 12 keV energy range with an energy resolution of < 150 eV (5.9 keV).",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/maxi/",
+      "keywords": [
+        "MAXI",
+        "Astrophysics",
+        "X-rays",
+        "Transients"
+      ],
+      "hasPart": [
+        {
+          "name": "MAXI/GSC All-sky X-ray maps",
+          "@id": "darts:maxi-gsc-allsky"
+        },
+        {
+          "name": "MAXI/SSC All-sky X-ray maps",
+          "@id": "darts:maxi-ssc-allsky"
+        },
+        {
+          "name": "MAXI All sky X-ray Monitor data for standard analysis",
+          "@id": "darts:maxi-stddata"
+        },
+        {
+          "name": "MAXI/RBM timeseries data",
+          "@id": "darts:maxi-rbm-timeseries"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": true,
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.riken.jp/",
+          "sameAs": "https://ror.org/01sjwvz98",
+          "name": "RIKEN > Institute of Physical and Chemical Research"
+        },
+        {
+          "@type": "Person",
+          "sameAs": "https://orcid.org/0000-0001-9307-046X",
+          "givenName": "Satoshi",
+          "familyName": "NAKAHIRA",
+          "name": [
+            {
+              "@language": "en",
+              "@value": "NAKAHIRA, Satoshi"
+            },
+            {
+              "@language": "jp",
+              "@value": "\u4e2d\u5e73 \u8061\u5fd7"
+            }
+          ],
+          "affiliation": {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science"
+          }
+        },
+        {
+          "@type": "Person",
+          "sameAs": "https://orcid.org/0000-0002-5352-7178",
+          "givenName": "Ken",
+          "familyName": "EBISAWA",
+          "name": [
+            {
+              "@language": "en",
+              "@value": "EBISAWA, Ken"
+            },
+            {
+              "@language": "jp",
+              "@value": "\u6d77\u8001\u6ca2 \u7814"
+            }
+          ],
+          "affiliation": {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science"
+          }
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "FITS",
+          "contentUrl": "https://data.darts.isas.jaxa.jp/pub/maxi/"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1093/pasj/61.5.999/",
+          "description": "Matsuoka, M. et al. (2009) Publications of the Astronomical Society of Japan - The MAXI Mission on the ISS: Science and Instruments for Monitoring All-Sky X-Ray Images."
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1093/pasj/63.sp3.S635/",
+          "description": "Sugizaki, M. et al. (2011) Publications of the Astronomical Society of Japan - In-Orbit Performance of MAXI Gas Slit Camera (GSC) on ISS. "
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1093/pasj/62.6.1371/",
+          "description": "Tomida, H. et al. (2010) Publications of the Astronomical Society of Japan - In-Orbit Performance of the MAXI/SSC onboard the ISS."
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/maxi/publications.html",
+          "description": "MAXI Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/maxi/instruments.html",
+          "description": "MAXI Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/maxi/analysis/",
+          "description": "MAXI Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://iss.jaxa.jp/en/kiboexp/ef/maxi/",
+          "description": "MAXI page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://humans-in-space.jaxa.jp/biz-lab/experiment/ef/maxi/",
+          "description": "MAXI page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "http://maxi.riken.jp/top",
+          "description": "MAXI page by RIKEN"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.nasa.gov/mission/station/research-explorer/investigation/?#id=593",
+          "description": "MAXI page by NASA"
+        }
+      ],
+      "temporalCoverage": "2009-08-03/.."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:ginga-collection",
+      "name": "Ginga collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u304e\u3093\u304c\u300d\uff08Astro-C\uff09\u306f\u30011987\u5e742\u67085\u65e5\u306b\u9e7f\u5150\u5cf6\u5b87\u5b99\u30bb\u30f3\u30bf\u30fc\u304b\u3089M-3SII-3\u30ed\u30b1\u30c3\u30c8\u306b\u3088\u3063\u3066\u6253\u3061\u4e0a\u3052\u3089\u308c\u305f\u3001\u65e5\u672c\u306eX\u7dda\u5929\u6587\u885b\u661f\u3067\u3059\u30021991\u5e7411\u67081\u65e5\u306b\u5730\u7403\u5927\u6c17\u570f\u306b\u518d\u7a81\u5165\u3057\u3001\u89b3\u6e2c\u671f\u9593\u3092\u7d42\u4e86\u3057\u307e\u3057\u305f\u3002\u300c\u304e\u3093\u304c\u300d\u306f\u3001\u305d\u306e\u751f\u6daf\u306b\u308f\u305f\u308a\u3001\u5f53\u6642\u77e5\u3089\u308c\u3066\u3044\u305f\u3059\u3079\u3066\u306e\u5b87\u5b99X\u7dda\u6e90\u306e\u30af\u30e9\u30b9\u3092\u30ab\u30d0\u30fc\u3059\u308b\u7d04350\u306e\u7570\u306a\u308b\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u3064\u3044\u3066\u30011000\u56de\u3092\u8d85\u3048\u308b\u89b3\u6e2c\u3092\u884c\u3044\u307e\u3057\u305f\u3002\u691c\u51fa\u5668\u3068\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u306e\u958b\u767a\u306f\u3001\u65e5\u672c\u3001\u82f1\u56fd\u3001\u7c73\u56fd\u306e\u79d1\u5b66\u8005\u306b\u3088\u308b\u56fd\u969b\u5354\u529b\u306b\u3088\u3063\u3066\u884c\u308f\u308c\u307e\u3057\u305f\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "GINGA, formerly known as Astro-C, is the third Japanese X-ray astronomy satellite launched by the M-3SII-3 rocket on February 5, 1987, from Kagoshima Space Center. The observation period ended on November 1, 1991, when GINGA reentered the earth's atmosphere. During its lifetime, Ginga performed over 1000 observations of approximately 350 different targets, covering all of the then-known classes of cosmic X-ray sources. Development of the detector and software has been made via international-collaboration by Japanese, UK, and US scientists.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/ginga/",
+      "keywords": [
+        "Ginga",
+        "Astrophysics",
+        "X-ray",
+        "Gamma-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "Ginga dataset",
+          "@id": "darts:ginga-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "jp"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "jp"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.nasa.gov/goddard/",
+            "sameAs": "https://ror.org/0171mag52",
+            "name": [
+              {
+                "@value": "GSFC > Goddard Space Flight Center",
+                "@language": "en"
+              },
+              {
+                "@value": "GSFC > \u30b4\u30c0\u30fc\u30c9\u5b87\u5b99\u98db\u884c\u30bb\u30f3\u30bf\u30fc",
+                "@language": "ja"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://le.ac.uk/",
+            "sameAs": "https://ror.org/04h699437",
+            "name": [
+              {
+                "@value": "University of Leicester",
+                "@language": "en"
+              },
+              {
+                "@value": "\u30ec\u30b9\u30bf\u30fc\u5927\u5b66",
+                "@language": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1987ApL....25..223M/abstract",
+          "description": "Makino, F. et al., (1987) Astrophysical Letters - The X-ray Astronomy Satellite ASTRO-C"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..345T%2Fabstract",
+          "description": "Turner, M. J. L. et al. (1989) Publications of the Astronomical Society of Japan - The large area counter on Ginga."
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..373H%2Fabstract",
+          "description": "Hayashida, K. et al. (1989) Publications of the Astronomical Society of Japan - The origin and behavior of the background in the large area counters on GINGA and its effect on the sensitivity"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..391T%2Fabstract",
+          "description": "Tsunemi, H. et al. (1989) Publications of the Astronomical Society of Japan - All sky monitor on board the GINGA satellite and its performance."
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..405M%2Fabstract",
+          "description": "Murakami, T. et al. (1989) Publications of the Astronomical Society of Japan - The gamma-ray burst detector system on board Ginga."
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/ginga/operations/index.html",
+          "description": "Ginga Operation Daily Reports"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=ginga",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/ginga/publications.html",
+          "description": "Ginga Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/ginga/instruments.html",
+          "description": "Ginga Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/ginga/analysis/",
+          "description": "Ginga Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://www.astro.isas.jaxa.jp/ginga/index.html",
+          "description": "\u300c\u304e\u3093\u304c\u300d\u885b\u661f - Ginga project page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/ginga.html",
+          "description": "Ginga page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/ginga/ginga.html",
+          "description": "Ginga page by NASA/GSFC HEASARC"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ledas.ac.uk/",
+          "description": "The Leicester Database & Archive Service (LEDAS)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/W3Browse/ginga/gingalog.html",
+          "description": "Explanation of GINGALOG at HEASARC"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/W3Browse/ginga/gingamode.html",
+          "description": "Explanation of GINGAMODE at HEASARC"
+        }
+      ],
+      "temporalCoverage": "1987-03-09/1991-10-10"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:geotail-collection",
+      "name": "GEOTAIL collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/geotail",
+      "version": "version_name",
+      "keywords": [
+        "GEOTAIL",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:kaguya-collection",
+      "name": "KAGUYA collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/kaguya",
+      "version": "version_name",
+      "keywords": [
+        "KAGUYA",
+        "Planetary Science"
+      ],
+      "hasPart": [
+        {
+          "name": "SLN-L-ARD-4-EVENT-V1.0",
+          "@id": "darts:sln-l-ard-4-event-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-GRAV-INFO-V1.0",
+          "@id": "darts:sln-l-rise-5-grav-info-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-2-SNDR-WAVEFORM-HIGH-V1.0",
+          "@id": "darts:sln-l-lrs-2-sndr-waveform-high-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-SAR10-POWER-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-sar10-power-v1.0"
+        },
+        {
+          "name": "SLN-L-GRS-5-NUCLIDE-MAP-V2.0",
+          "@id": "darts:sln-l-grs-5-nuclide-map-v2.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-SAR05-COMPLEX-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-sar05-complex-v1.0"
+        },
+        {
+          "name": "SLN-L-LMAG-5-MA-GRID-V1.0",
+          "@id": "darts:sln-l-lmag-5-ma-grid-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-GRAV-COV-V1.0",
+          "@id": "darts:sln-l-rise-5-grav-cov-v1.0"
+        },
+        {
+          "name": "SLN-L-LMAG-5-MA-GRID-OPTION-V1.0",
+          "@id": "darts:sln-l-lmag-5-ma-grid-option-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GT-SP-IMG-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-gt-sp-img-v2.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GGT-NUM-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-ggt-num-v2.0"
+        },
+        {
+          "name": "SLN-L-PACE-3-PBF1-V3.0",
+          "@id": "darts:sln-l-pace-3-pbf1-v3.0"
+        },
+        {
+          "name": "SLN-E-TEX-5-PLASMASPHERE-V1.0",
+          "@id": "darts:sln-e-tex-5-plasmasphere-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-4-TOPO-LGT-TS-V2.0",
+          "@id": "darts:sln-l-lalt-4-topo-lgt-ts-v2.0"
+        },
+        {
+          "name": "SLN-L-LMAG-3-MAG-TS-V1.0",
+          "@id": "darts:sln-l-lmag-3-mag-ts-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-5-EVENING-MAP-V4.0",
+          "@id": "darts:sln-l-tc-5-evening-map-v4.0"
+        },
+        {
+          "name": "SLN-L-GRS-3-ENG-SPECTRUM-V1.0",
+          "@id": "darts:sln-l-grs-3-eng-spectrum-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-SHT-COEF-V2.0",
+          "@id": "darts:sln-l-lalt-5-sht-coef-v2.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-TRAJ-MAIN-V1.0",
+          "@id": "darts:sln-l-rise-5-traj-main-v1.0"
+        },
+        {
+          "name": "SLN-L-SP-3-LEVEL2B1-V2.0",
+          "@id": "darts:sln-l-sp-3-level2b1-v2.0"
+        },
+        {
+          "name": "SLN-L-TC-4-DTM-ORTHO-V3.0",
+          "@id": "darts:sln-l-tc-4-dtm-ortho-v3.0"
+        },
+        {
+          "name": "SLN-L-LMAG-5-MA-MAP-OPTION-V1.0",
+          "@id": "darts:sln-l-lmag-5-ma-map-option-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-GSI-MAP-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-gsi-map-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-GRAV-COEF-V1.0",
+          "@id": "darts:sln-l-rise-5-grav-coef-v1.0"
+        },
+        {
+          "name": "",
+          "@id": "darts:sln-l-spice-6-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GT-SP-NUM-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-gt-sp-num-v2.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-SAR40-POWER-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-sar40-power-v1.0"
+        },
+        {
+          "name": "SLN-E-TVIS-5-DARK-LEVEL2A-V1.0",
+          "@id": "darts:sln-e-tvis-5-level2a-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-SAR10-COMPLEX-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-sar10-complex-v1.0"
+        },
+        {
+          "name": "SLN-L-MI-4-LEVEL3C5-V3.0",
+          "@id": "darts:sln-l-mi-4-level3c5-v3.0"
+        },
+        {
+          "name": "SLN-L-TC-5-ORTHO-MAP-SEAMLESS-V2.0",
+          "@id": "darts:sln-l-tc-5-ortho-map-seamless-v2.0"
+        },
+        {
+          "name": "SLN-L-MI-3-NIR-LEVEL2B2-V1.0",
+          "@id": "darts:sln-l-mi-3-nir-level2b2-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-HIGH-V2.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-high-v2.0"
+        },
+        {
+          "name": "SLN-L_E-HDTV-2-EDT-V1.0",
+          "@id": "darts:sln-l_e-hdtv-2-edr-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-5-DTM-MAP-V2.0",
+          "@id": "darts:sln-l-tc-5-dtm-map-v2.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-TRAJ-VSTAR-M3-V1.0",
+          "@id": "darts:sln-l-rise-5-traj-vstar-m3-v1.0"
+        },
+        {
+          "name": "SLN-L-LMAG-5-MA-MAP-V1.0",
+          "@id": "darts:sln-l-lmag-5-ma-map-v1.0"
+        },
+        {
+          "name": "SLN-L-MI-4-VIS-LEVEL2C2-V1.0",
+          "@id": "darts:sln-l-mi-4-vis-level2c2-v1.0"
+        },
+        {
+          "name": "SLN-L-PACE-5-ET-SUMMARY-V1.0",
+          "@id": "darts:sln-l-pace-5-et-summary-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-3-SP-SUPPORT-LEVEL2B0-V1.0",
+          "@id": "darts:sln-l-tc-3-sp-support-level2b0-v1.0"
+        },
+        {
+          "name": "SLN-L-RS-5-ELECTRON-COLUMN-DENSITY-V1.0",
+          "@id": "darts:sln-l-rs-5-electron-column-density-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-4-DEM-ORTHO-V1.0",
+          "@id": "darts:sln-l-tc-4-dem-ortho-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-3-W-LEVEL2B0-V1.0",
+          "@id": "darts:sln-l-tc-3-w-level2b0-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-5-DTM-MAP-SEAMLESS-V2.0",
+          "@id": "darts:sln-l-tc-5-dtm-map-seamless-v2.0"
+        },
+        {
+          "name": "SLN-L-MI-5-MAP-V3.0",
+          "@id": "darts:sln-l-mi-5-map-v3.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GT-NP-IMG-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-gt-np-img-v2.0"
+        },
+        {
+          "name": "SLN-L-TC-5-MORNING-MAP-V4.0",
+          "@id": "darts:sln-l-tc-5-morning-map-v4.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-GRAV-MAP-V1.0",
+          "@id": "darts:sln-l-rise-5-grav-map-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-2-SNDR-WAVEFORM-LOW-V1.0",
+          "@id": "darts:sln-l-lrs-2-sndr-waveform-low-v1.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-LOW-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-low-v1.0"
+        },
+        {
+          "name": "SLN-L-GRS-5-NUCLIDE-MAP-V1.0",
+          "@id": "darts:sln-l-grs-5-nuclide-map-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GGT-MAP-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-ggt-map-v2.0"
+        },
+        {
+          "name": "SLN-L-LALT-3-RANGE-V1.0",
+          "@id": "darts:sln-l-lalt-3-range-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-3-DVLBI-1WR-V1.0",
+          "@id": "darts:sln-l-rise-3-dvlbi-1wr-v1.0"
+        },
+        {
+          "name": "SLN-L-GRS-5-GAMMA-RAY-MAP-V1.0",
+          "@id": "darts:sln-l-grs-5-gamma-ray-map-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-TRAJ-VSTAR-M2-V1.0",
+          "@id": "darts:sln-l-rise-5-traj-vstar-m2-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-GRAV-POWER-V1.0",
+          "@id": "darts:sln-l-rise-5-grav-power-v1.0"
+        },
+        {
+          "name": "SLN-L-RISE-5-TRAJ-RSTAR-V1.0",
+          "@id": "darts:sln-l-rise-5-traj-rstar-v1.0"
+        },
+        {
+          "name": "SLN-L-LALT-5-TOPO-GT-NP-NUM-V2.0",
+          "@id": "darts:sln-l-lalt-5-topo-gt-np-num-v2.0"
+        },
+        {
+          "name": "SLN-L-TC-3-S-LEVEL2B0-V1.0",
+          "@id": "darts:sln-l-tc-3-s-level2b0-v1.0"
+        },
+        {
+          "name": "SLN-L-SP-4-LEVEL2B2-V2.0",
+          "@id": "darts:sln-l-sp-4-level2b2-v2.0"
+        },
+        {
+          "name": "SLN-L-TC-5-ORTHO-MAP-V2.0",
+          "@id": "darts:sln-l-tc-5-ortho-map-v2.0"
+        },
+        {
+          "name": "SLN-L-SP-4-LEVEL2C-V3.0",
+          "@id": "darts:sln-l-sp-4-level2c-v3.0"
+        },
+        {
+          "name": "SLN-L-LRS-5-SNDR-SS-SAR05-POWER-V1.0",
+          "@id": "darts:sln-l-lrs-5-sndr-ss-sar05-power-v1.0"
+        },
+        {
+          "name": "SLN-L-MI-3-VIS-LEVEL2B2-V1.0",
+          "@id": "darts:sln-l-mi-3-vis-level2b2-v1.0"
+        },
+        {
+          "name": "SLN-L-TC-5-SLDEM2013-V1.0",
+          "@id": "darts:sln-l-tc-5-sldem2013-v1.0"
+        },
+        {
+          "name": "SLN-L-LMAG-5-1D-SIGMA-ECS-V1.0",
+          "@id": "darts:sln-l-lmag-5-1d-sigma-ecs-v1.0"
+        },
+        {
+          "name": "SLN-L-MI-4-NIR-LEVEL2C2-V1.0",
+          "@id": "darts:sln-l-mi-4-nir-level2c2-v1.0"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:sedaap-collection",
+      "name": "SEDAAP collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/sedaap",
+      "version": "version_name",
+      "keywords": [
+        "SEDAAP",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:hitomi-collection",
+      "name": "Hitomi collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u3072\u3068\u307f\u300d (ASTRO-H) \u306f\u30012016 \u5e74 2 \u6708 17 \u65e5\u306b\u6253\u3061\u4e0a\u3052\u3089\u308c\u305f 6 \u756a\u76ee\u306e X \u7dda\u5929\u6587\u885b\u661f\u3067\u3059\u3002 \u300c\u3072\u3068\u307f\u300d\u306f\u3001JAXA\u304c\u4e3b\u5c0e\u3057\u3001\u65e5\u672c\u3001\u7c73\u56fd\uff08NASA/GSFC\u3001\u30b9\u30bf\u30f3\u30d5\u30a9\u30fc\u30c9\u5927\u5b66\uff09\u3001\u30ab\u30ca\u30c0\uff08CSA\uff09\u3001\u6b27\u5dde\uff08ESA\u3001SRON\u3001CEA/DSM/IRFU\u3001\u30b8\u30e5\u30cd\u30fc\u30d6\u5927\u5b66\uff09\u306e70\u3092\u8d85\u3048\u308b\u6a5f\u95a2\u304c\u5354\u529b\u3057\u305f\u5927\u898f\u6a21\u306a\u56fd\u969b\u5171\u540c\u7814\u7a76\u306b\u3088\u3063\u3066\u69cb\u7bc9\u3055\u308c\u307e\u3057\u305f\u3002JAXA\u306f2016\u5e743\u670826\u65e5\u306b\u885b\u661f\u3068\u306e\u4ea4\u4fe1\u304c\u9014\u7d76\u3048\u30014\u670828\u65e5\u306b\u5fa9\u65e7\u4f5c\u696d\u3092\u4e2d\u6b62\u3057\u305f\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "Hitomi (ASTRO-H) is the sixth X-ray astronomy satellite launched on February 17, 2016. Hitomi was built by a major international collaboration led by JAXA with over 70 contributing institutions in Japan, the US (NASA/GSFC, Stanford University), Canada (CSA), and Europe (ESA, SRON, CEA/DSM/IRFU, Universite de Geneve). On March 26, 2016, JAXA lost contact with the satellite and on April 28 ceased the efforts to restore the operations.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/hitomi/",
+      "keywords": [
+        "Hitomi",
+        "Astrophysics",
+        "X-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "Hitomi dataset",
+          "@id": "darts:hitomi-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "ja"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "ja"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.nasa.gov/goddard/",
+            "sameAs": "https://ror.org/0171mag52",
+            "name": [
+              {
+                "@value": "GSFC > Goddard Space Flight Center",
+                "@language": "en"
+              },
+              {
+                "@value": "GSFC > \u30b4\u30c0\u30fc\u30c9\u5b87\u5b99\u98db\u884c\u30bb\u30f3\u30bf\u30fc",
+                "@language": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/hitomi/public_list.html",
+          "description": "Hitomi Public Data List"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=hitomi",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+          "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/hitomi/papers.html",
+          "description": "Hitomi Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/hitomi/instruments.html",
+          "description": "Hitomi Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/hitomi/analysis.html",
+          "description": "Hitomi Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/hitomi.html",
+          "description": "Hitomi page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "http://global.jaxa.jp/projects/sas/astro_h/index.html",
+          "description": "Hitomi page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/hitomi/",
+          "description": "Hitomi page by NASA/GSFC HEASARC"
+        }
+      ],
+      "temporalCoverage": "2016-02-24/2016-03-22"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:suisei-collection",
+      "name": "Suisei collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://data.darts.isas.jaxa.jp/pub/pds3/suisei-c-esp-3-rdr-halley-v1.0/",
+      "keywords": [
+        "Suisei",
+        "Planetary Science",
+        "Comet",
+        "1P/Halley"
+      ],
+      "hasPart": [
+        {
+          "name": "SUISEI ENERGY SPECTRUM PARTICLE MEASUREMENTS V1.0",
+          "@id": "darts:suisei-c-esp-3-rdr-halley-v1.0"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "temporalCoverage": "1986-03-03/1986-03-13"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:smiles-collection",
+      "name": "SMILES collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/smiles",
+      "version": "version_name",
+      "keywords": [
+        "SMILES",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:arase-collection",
+      "name": "ARASE collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/arase",
+      "version": "version_name",
+      "keywords": [
+        "ARASE",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:jikiken-collection",
+      "name": "JIKIKEN collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/jikiken",
+      "version": "version_name",
+      "keywords": [
+        "JIKIKEN",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:asca-collection",
+      "name": "ASCA collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u3042\u3059\u304b\u300d\u306f\u30011993\u5e742\u670820\u65e5\u306b\u6253\u3061\u4e0a\u3052\u3089\u308c\u305f\u65e5\u672c\u30674\u756a\u76ee\u306eX\u7dda\u5929\u6587\u885b\u661f\u3067\u3042\u308b(Tanaka et al. 1994)\u3002X\u7dda\u671b\u9060\u93e1\u3001X\u7ddaCCD\u30ab\u30e1\u30e9\u3001\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u306e\u958b\u767a\u306b\u304a\u3044\u3066\u3001\u65e5\u7c73\u306e\u79d1\u5b66\u8005\u306e\u5171\u540c\u7814\u7a76\u304c\u884c\u308f\u308c\u305f\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "ASCA (Advanced Satellite for Cosmology and Astrophysics) is the fourth Japanese X-ray astronomy satellite launched on February 20, 1993 (Tanaka et al. 1994). The collaboration between Japanese and US scientists has been carried out in the developments of the X-ray telescopes, the X-ray CCD cameras, and software.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/asca/",
+      "keywords": [
+        "ASCA",
+        "Astrophysics",
+        "X-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "ASCA dataset",
+          "@id": "darts:asca-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "jp"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "jp"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1994PASJ...46L..37T/abstract",
+          "description": "Tanaka, Y. et al., (1994) Publications of the Astronomical Society of Japan - The X-Ray Astronomy Satellite ASCA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/asca/operations.html",
+          "description": "ASCA Operation Daily Reports"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/asca/data/public_list.html",
+          "description": "ASCA Public Data List"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=asca",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+          "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/asca/publications.html",
+          "description": "ASCA Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/asca/instruments.html",
+          "description": "ASCA Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/asca/analysis.html",
+          "description": "ASCA Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "http://www.astro.isas.jaxa.jp/asca/",
+          "description": "\u300c\u3042\u3059\u304b\u300d\u306e\u30da\u30fc\u30b8 - ASCA project page by ISAS"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/asca.html",
+          "description": "ASCA page by ISAS"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/asca/ascagof.html",
+          "description": "ASCA Guest Observer Facility at NASA/GSFC"
+        }
+      ],
+      "temporalCoverage": "1993-04-05/2000-07-15"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:hayabusa2-collection",
+      "name": "HAYABUSA2 collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/hayabusa2",
+      "version": "version_name",
+      "keywords": [
+        "HAYABUSA2",
+        "Planetary Science"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:hayabusa-collection",
+      "name": "Hayabusa collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/planet/project/hayabusa/",
+      "keywords": [
+        "Hayabusa",
+        "Planetary Science",
+        "Asteroid"
+      ],
+      "hasPart": [
+        {
+          "name": "HAYABUSA AMICA IMAGES WITH GEOMETRY BACKPLANES V1.0",
+          "@id": "darts:hay-a-amica-3-amicageom-v1.0"
+        },
+        {
+          "name": "HAYABUSA AMICA V1.0",
+          "@id": "darts:hay-a-amica-3-hayamica-v1.0"
+        },
+        {
+          "name": "GASKELL ITOKAWA SHAPE MODEL V1.0",
+          "@id": "darts:hay-a-amica-5-itokawashape-v1.0"
+        },
+        {
+          "name": "HAYABUSA LIDAR V1.0",
+          "@id": "darts:hay-a-lidar-3-haylidar-v1.0"
+        },
+        {
+          "name": "HAYABUSA LIDAR V2.0",
+          "@id": "darts:hay-a-lidar-3-haylidar-v2.0"
+        },
+        {
+          "name": "HAYABUSA NIRS RAW SPECTRA V1.0",
+          "@id": "darts:hay-a-nirs-2-nirsraw-v1.0"
+        },
+        {
+          "name": "HAYABUSA NIRS CALIBRATED SPECTRA V1.0",
+          "@id": "darts:hay-a-nirs-3-nirscal-v1.0"
+        },
+        {
+          "name": "HAYABUSA ONC EDR V1.0",
+          "@id": "darts:hay-a-onc-2-edr-1.0"
+        },
+        {
+          "name": "HAYABUSA SPICE KERNELS V1.0",
+          "@id": "darts:hay-a-spice-6-v1.0"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "temporalCoverage": "2003-03-18/2010-06-13"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:halca-collection",
+      "name": "HALCA collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u306f\u308b\u304b\u300d(HALCA,MUSES-B)\u306f\u30011997\u5e742\u670812\u65e5\u306b\u6253\u3061\u4e0a\u3052\u3089\u305f\u56fd\u969b\u7684\u306a\u96fb\u6ce2\u5929\u6587\u5b66\u30b9\u30da\u30fc\u30b9\u30df\u30c3\u30b7\u30e7\u30f3\u3067\u3059\u3002\u6253\u3061\u4e0a\u3052\u5f8c\u3001\u8ecc\u9053\u4e0a\u3067\u76f4\u5f848\u30e1\u30fc\u30c8\u30eb\u306e\u96fb\u6ce2\u671b\u9060\u93e1\u3092\u5c55\u958b\u3057\u307e\u3057\u305f\u3002 \u5730\u4e0a\u306e\u671b\u9060\u93e1\u3068\u5354\u529b\u3057\u3001\u591a\u304f\u306e\u660e\u308b\u3044\u6d3b\u52d5\u7684\u9280\u6cb3\u4e2d\u5fc3\u6838\uff08\u5de8\u5927\u30d6\u30e9\u30c3\u30af\u30db\u30fc\u30eb\uff09\u3092\u3001\u4e16\u754c\u6700\u9ad8\u306e\u9ad8\u7a7a\u9593\u5206\u89e3\u80fd\u3067\u89b3\u6e2c\u3057\u307e\u3057\u305f\u3002 2005\u5e7411\u670830\u65e5\u306b\u300c\u306f\u308b\u304b\u300d\u306f\u904b\u7528\u3092\u7d42\u4e86\u3057\u307e\u3057\u305f\u3002\u300c\u306f\u308b\u304b\u300d\u306f\u3001\u4e16\u754c\u4e2d\u306e\u96fb\u6ce2\u671b\u9060\u93e1\u3068\u5354\u529b\u3057\u3066\u5929\u4f53\u89b3\u6e2c\u3092\u884c\u3046\u30b9\u30da\u30fc\u30b9VLBI\u8a08\u753b (VLBI Space Observatory Programe, VSOP)\u306e\u4e2d\u5fc3\u3067\u3057\u305f\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "HALCA (MUSES-B), the first astronomical satellite dedicated to Very-Long Baseline Interferometry (VLBI), was launched on its maiden flight by ISAS's M-V launch vehicle from Kagoshima Space Center on February 12, 1997. HALCA was the main player of the VLBI Space Observation Programme (VSOP).",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/halca/",
+      "keywords": [
+        "HALCA",
+        "Astrophysics",
+        "radio"
+      ],
+      "hasPart": [
+        {
+          "name": "HALCA dataset",
+          "@id": "darts:halca-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "jp"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "jp"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.nao.ac.jp/",
+            "sameAs": "https://ror.org/052rrw050",
+            "name": [
+              {
+                "@value": "NAOJ > National Astronomical Observatory of Japan",
+                "@language": "en"
+              },
+              {
+                "@value": "NAOJ > \u56fd\u7acb\u5929\u6587\u53f0",
+                "@language": "jp"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/publications/inoue.pdf",
+          "description": "Inoue, M. et al. (1993) Sub-Arcsecond Radio Astronomy - Space VLBI Project VSOP"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/publications/hirosawa.pdf",
+          "description": "Hirosawa, H. et al. (1994) Proceedings of the 19th International Symposium on Space Technology and Science - Design of the Space-VLBI Satellite MUSES-B"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "en",
+          "url": "https://ui.adsabs.harvard.edu/abs/1998AAS...192.1303F/abstract",
+          "description": "Fey, A. L. et al. (1998) American Astronomical Society - The USNO Radio Reference Frame Image Database"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/data/public_list.html",
+          "description": "HALCA Public Data List"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=halca",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/publications.html",
+          "description": "HALCA Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/instruments.html",
+          "description": "HALCA Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/analysis/",
+          "description": "Halca Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/vsop/index.html.en",
+          "description": "The VLBI Spave Observatory Programme (VSOP) page"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://darts.isas.jaxa.jp/astro/halca/vsop/index.html.ja",
+          "description": "VSOP\u8a08\u753b - The VLBI Spave Observatory Programme (VSOP) page"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.vsop.isas.jaxa.jp/",
+          "description": "Radio Astromony Group at ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/about/facilities/usuda.html",
+          "description": "Usuda Deep Space Center"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/about/facilities/uchinoura.html",
+          "description": "Uchinoura Space Center"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://www.nao.ac.jp/",
+          "description": "\u56fd\u7acb\u5929\u6587\u53f0 - National Astronomical Obserbatory of Japan (NAOJ)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://www.nro.nao.ac.jp/",
+          "description": "\u56fd\u7acb\u5929\u6587\u53f0 \u91ce\u8fba\u5c71\u5b87\u5b99\u96fb\u6ce2\u89b3\u6e2c\u6240 - Nobeyama Radio Observatory"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://ksrc.nict.go.jp/",
+          "description": "\u9e7f\u5cf6\u5b87\u5b99\u6280\u8853\u30bb\u30f3\u30bf\u30fc - Kashima Space Technology Center"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.jpl.nasa.gov/missions/space-very-long-baseline-interferometry-space-vlbi",
+          "description": "JPL Space VLBI Project"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://public.nrao.edu/",
+          "description": "National Radio Astronomy Observatory (NRAO)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.atnf.csiro.au/",
+          "description": "Australia Telescope National Facility"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.evlbi.org/",
+          "description": "European VLBI Network"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://greenbankobservatory.org/",
+          "description": "NRAO Green Bank OVLBI Station"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://public.nrao.edu/telescopes/vlba/",
+          "description": "NRAO Very Long Baseline Array"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://lassonde.yorku.ca/cress/",
+          "description": "Center for Research in Earth and Space Science(CRESS formerly CREST, ISTS)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ucalgary.ca/",
+          "description": "University of Calgary"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.cv.nrao.edu/2cmsurvey/",
+          "description": "The VLBA 15 GHz snapshot survey"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.asc.rssi.ru/radioastron/index.htm",
+          "description": "RadioAstron"
+        }
+      ],
+      "temporalCoverage": "1997-04-12/2003-10-06"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:akebono-collection",
+      "name": "AKEBONO collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/akebono",
+      "version": "version_name",
+      "keywords": [
+        "AKEBONO",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:bsgc-collection",
+      "name": "BSGC collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "Bisei Spaceguard Center (BSGC) \u306f\u3001\u65e5\u672c\u5ca1\u5c71\u770c\u732a\u539f\u5e02\u306e\u7f8e\u661f\u753a\u306b\u3042\u308b\u5149\u5b66\u671b\u9060\u93e1\u65bd\u8a2d\u3067\u3059\u3002BSGC \u306f\u3001\u53e3\u5f84 1 m\u300150 cm\u300125 cm \u306e\u671b\u9060\u93e1\u3092\u4f7f\u7528\u3057\u3066\u3001\u5730\u7403\u306b\u63a5\u8fd1\u3059\u308b\u5c0f\u60d1\u661f\u3001\u6a5f\u80fd\u3057\u306a\u304f\u306a\u3063\u305f\u4eba\u5de5\u885b\u661f\u3084\u30ed\u30b1\u30c3\u30c8\u3001\u8ecc\u9053\u4e0a\u306e\u30b4\u30df\u306a\u3069\u3092\u8ffd\u8de1\u3057\u3066\u3044\u307e\u3059\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "The Bisei Spaceguard Center (BSGC) is an optical telescope facility located in Bisei Town, Ibara City, Japan. BSGC tracks the asteroids that approach the earth, nonfunctional satellites and rockets, and orbital debris using the 1 m, 50 cm, and 25 cm telescopes.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/bsgc/",
+      "keywords": [
+        "BSGC",
+        "Astrophysics",
+        "Optical"
+      ],
+      "hasPart": [
+        {
+          "name": "BSGC dataset",
+          "@id": "darts:bsgc-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "jp"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "jp"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "https://global.jaxa.jp/about/centers/bsgc/index.html",
+            "name": [
+              {
+                "@value": "Bisei Space Guard Center",
+                "@language": "en"
+              },
+              {
+                "@value": "\u7f8e\u661f\u30b9\u30da\u30fc\u30b9\u30ac\u30fc\u30c9\u30bb\u30f3\u30bf\u30fc",
+                "@language": "jp"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=bsgc",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/bsgc/instruments.html",
+          "description": "BSGC Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/bsgc/publications.html",
+          "description": "BSGC Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://www.spaceguard.or.jp/",
+          "description": "\u65e5\u672c\u30b9\u30da\u30fc\u30b9\u30ac\u30fc\u30c9\u5354\u4f1a - Japan Spaceguard Association (JSGA)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://global.jaxa.jp/about/centers/bsgc/index.html",
+          "description": "JAXA Bisei Spaceguard Center Page"
+        }
+      ],
+      "temporalCoverage": [
+        "2000-06-14/2002-09-07",
+        "2007-03-22/2017-03-30"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:yohkoh-collection",
+      "name": "YOHKOH collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/yohkoh",
+      "version": "version_name",
+      "keywords": [
+        "YOHKOH",
+        "Solar Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:calet-collections",
+      "name": "CALET collections",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u9ad8\u30a8\u30cd\u30eb\u30ae\u30fc\u96fb\u5b50\u3068\u30ac\u30f3\u30de\u7dda\u3092\u89b3\u6e2c\u3059\u308b\u88c5\u7f6e\u300cCALorimetric Electron Telescope (CALET)\u300d\u306f\u3001\u65e5\u672c\u521d\u306e\u672c\u683c\u7684\u306a\u5b87\u5b99\u7dda\u89b3\u6e2c\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3067\u3059\u3002CALET\u306fJAXA\u3068\u65e9\u7a32\u7530\u5927\u5b66\u304c\u30a4\u30bf\u30ea\u30a2\u3001\u30a2\u30e1\u30ea\u30ab\u3068\u5171\u540c\u3067\u958b\u767a\u3057\u30012015\u5e748\u670825\u65e5\u306b\u56fd\u969b\u5b87\u5b99\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3\u306e\u300c\u304d\u307c\u3046\u300d\u65e5\u672c\u5b9f\u9a13\u68df\u8239\u5916\u5b9f\u9a13\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306b\u8a2d\u7f6e\u3055\u308c\u307e\u3057\u305f\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "The CALorimetric Electron Telescope (CALET), an apparatus for observing high-energy electrons and gamma-rays, is Japan\u2019s first full-scale project for observing cosmic rays in space. CALET has been developed by JAXA and Waseda University in collaboration with Italy and USA. It was installed to the Exposed Facility of the Japanese Experiment Module \"Kibo\" of the International Space Station on August 25, 2015.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/calet/",
+      "keywords": [
+        "CALET",
+        "Astrophysics",
+        "Electron",
+        "Gamma-ray"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "hasPart": [
+        {
+          "name": "CALET CHD Monitor data for space weather",
+          "@id": "darts:calet-cal-chd"
+        },
+        {
+          "name": "CALET CAL energy spectrum data of various particles",
+          "@id": "darts:calet-cal-spectrum"
+        },
+        {
+          "name": "CALET CGBM Gammaray burst Monitor data",
+          "@id": "darts:calet-cgbm"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": [
+            {
+              "@value": "JAXA > Japan Aerospace Exploration Agency",
+              "@language": "en"
+            },
+            {
+              "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+              "@language": "jp"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": [
+            {
+              "@value": "ISAS > Institute of Space and Astronautical Science",
+              "@language": "en"
+            },
+            {
+              "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+              "@language": "jp"
+            }
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.waseda.jp/top/",
+          "sameAs": "https://ror.org/00ntfnx83",
+          "name": [
+            {
+              "@value": "Waseda University",
+              "@language": "en"
+            },
+            {
+              "@value": "\u65e9\u7a32\u7530\u5927\u5b66",
+              "@language": "jp"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "url": "https://home.infn.it/it/",
+          "sameAs": "https://ror.org/005ta0471",
+          "name": [
+            {
+              "@value": "Istituto Nazionale di Fisica Nucleare",
+              "@language": "it"
+            },
+            {
+              "@value": "National Institute for Nuclear Physics",
+              "@language": "en"
+            },
+            {
+              "@value": "\u30a4\u30bf\u30ea\u30a2\u56fd\u7acb\u6838\u7269\u7406\u7814\u7a76\u6240",
+              "@language": "ja"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.lsu.edu/",
+          "sameAs": "https://ror.org/05ect4e57",
+          "name": [
+            {
+              "@value": "Louisiana State University",
+              "@language": "en"
+            },
+            {
+              "@value": "\u30eb\u30a4\u30b8\u30a2\u30ca\u5dde\u7acb\u5927\u5b66",
+              "@language": "jp"
+            }
+          ]
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.22323/1.236.0581",
+          "description": "Torii, S. (2015) Proceedings of the 34th International Cosmic Ray Conference - The CALorimetric Electron Telescope (CALET): a High-Energy Astroparticle Physics Observatory on the International Space Station"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.48550/arXiv.1311.4084",
+          "description": "Yamaoka K. et al. (2013) arXiv - The CALET Gamma-ray Burst Monitor (CGBM)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/calet/instruments.html",
+          "description": "CALET Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://calet.jp/",
+          "description": "CALET project page by Waseda University"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "http://cgbm.calet.jp/docs/home.html",
+          "description": "CALET Gamma-ray Burst Monitor page"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "http://calet.pi.infn.it/",
+          "description": "CALET project page by Italy Istituto Nazionale di Fisica Nucleare"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "http://calet.phys.lsu.edu/",
+          "description": "CALET project page by Louisiana State University"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://iss.jaxa.jp/en/kiboexp/ef/calet/",
+          "description": "CALET page by JAXA"
+        }
+      ],
+      "temporalCoverage": "2015-10-05/2024-02-15"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:oozora-collection",
+      "name": "OOZORA collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/oozora",
+      "version": "version_name",
+      "keywords": [
+        "OOZORA",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:hisaki-collection",
+      "name": "HISAKI collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/hisaki",
+      "version": "version_name",
+      "keywords": [
+        "HISAKI",
+        "Solar-Terrestrial Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:irts-collection",
+      "name": "IRTS collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "IRTS (Infrared Telescope in Space) \u306f\u30011995\u5e743\u670818\u65e5\u306bH-II\u30ed\u30b1\u30c3\u30c8\u306b\u3088\u3063\u3066\u6253\u3061\u4e0a\u3052\u3089\u308c\u30011996\u5e741\u670813\u65e5\u306bNASA\u30b9\u30da\u30fc\u30b9\u30b7\u30e3\u30c8\u30ebSTS-72\u306b\u3088\u3063\u3066\u56de\u53ce\u3055\u308c\u305f\u5b87\u5b99\u30d5\u30e9\u30a4\u30e4\u30fc\u30e6\u30cb\u30c3\u30c8\uff08SFU\uff09\u306b\u642d\u8f09\u3055\u308c\u305f\u5b9f\u9a13\u306e1\u3064\u3067\u3059\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "IRTS (Infrared Telescope in Space) is one of the experiments on-board the Space Flyer Unit (SFU), which was launched by the H-II rocket on March 18, 1995, and retrieved by the NASA Space Shuttle STS-72 on January 13, 1996.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/irts/",
+      "keywords": [
+        "IRTS",
+        "Astrophysics",
+        "Infrared"
+      ],
+      "hasPart": [
+        {
+          "name": "IRTS dataset",
+          "@id": "darts:irts-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1093/pasj/48.5.L41",
+          "description": "Murakami, H. et al. (1996) Publications of the Astronomical Society of Japan - The IRTS (Infrared Telescope in Space) Mission"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1117/12.255185",
+          "description": "Manabu, N. et al. (1996) SPIE - Flight performance of the Near-Infrared Spectrometer"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1117/12.255187",
+          "description": "Roellig, T. L. et al. (1996) SPIE - Flight performance of the Mid-Infrared Spectrometer on the Infrared Telescope in Space mission"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1117/12.255188",
+          "description": "Shibai, H. et al. (1996) SPIE - Flight performance of the Far-Infrared Line Mapper (FILM)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.1117/12.255189",
+          "description": "Hirao, T. et al. (1996) SPIE - Flight performance of the Far-Infrared Photometer (FIRP)"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/quick_look/irts/html/irts_scan_path.html",
+          "description": "Spatial Imtensity Map Scan Path"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/irts/search_mirs_psc.html",
+          "description": "IRTS MIRS PSC Search"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/irts/search_map.html",
+          "description": "IRTS Map Search"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=irts",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/irts/papers.html",
+          "description": "IRTS Publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/irts/instruments/",
+          "description": "IRTS Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/irts/irts_E.html",
+          "description": "IRTS project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/sfu.html",
+          "description": "SFU page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/",
+          "description": "Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "ja",
+          "url": "https://www-ir.u.phys.nagoya-u.ac.jp/",
+          "description": "\u540d\u53e4\u5c4b\u5927\u5b66 \u5b87\u5b99\u7269\u7406\u5b66\u7814\u7a76\u5ba4 \u8d64\u5916\u7dda\u30b0\u30eb\u30fc\u30d7 (UIR) - Laboratory of Infrared Astrophysics at Nagoya Univ."
+        }
+      ],
+      "temporalCoverage": "1995-03-30/1995-04-26"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:hinotori-collection",
+      "name": "HINOTORI collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/hinotori",
+      "version": "version_name",
+      "keywords": [
+        "HINOTORI",
+        "Solar Physics"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:xrism-collections",
+      "name": "XRISM collections",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "X\u7dda\u64ae\u50cf\u5206\u5149\u30df\u30c3\u30b7\u30e7\u30f3\uff08XRISM\uff09\u306f\u3001ASTRO-H\u300c\u3072\u3068\u307f\u300d\u306b\u7d9a\u304f\u3001\u65e5\u672c\u30677\u756a\u76ee\u306eX\u7dda\u64ae\u50cf\u30fb\u9ad8\u5206\u89e3\u80fd\u5206\u5149\u306e\u4e16\u754c\u3092\u62d3\u304fX\u7dda\u89b3\u6e2c\u885b\u661f\u3067\u3059\u3002XRISM\u306f\u3001X\u7dda\u30df\u30e9\u30fc\u306e\u7126\u70b9\u9762\u306b\u3001\u5f85\u671b\u306eX\u7dda\u30de\u30a4\u30af\u30ed\u30ab\u30ed\u30ea\u30fc\u30e1\u30fc\u30bf\u3068\u3001\u5f93\u6765\u304b\u3089\u306e\u4fe1\u983c\u6027\u306e\u9ad8\u3044X\u7dda\u5e83\u8996\u91ceCCD\u30ab\u30e1\u30e9\u3092\u642d\u8f09\u3057\u305f\u82b1\u3067\u3059\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "X-Ray Imaging and Spectroscopy Mission (XRISM) is the seventh Japanese X-ray observatory exploring the world of X-ray imaging and high-resolution spectroscopy, following ASTRO-H \"Hitomi\". XRISM is a flower equipped with a long-waited X-ray micro-calorimeter and a conventional and reliable X-ray wide-field CCD camera on the focal plane of X-ray Mirrors.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/xrism/",
+      "keywords": [
+        "XRISM",
+        "Astrophysics",
+        "X-ray"
+      ],
+      "hasPart": [
+        {
+          "name": "XRISM dataset",
+          "@id": "darts:xrism-data"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": {
+        "@list": [
+          {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+              {
+                "@value": "JAXA > Japan Aerospace Exploration Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "JAXA > \u5b87\u5b99\u822a\u7a7a\u7814\u7a76\u958b\u767a\u6a5f\u69cb",
+                "@language": "ja"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+              {
+                "@value": "ISAS > Institute of Space and Astronautical Science",
+                "@language": "en"
+              },
+              {
+                "@value": "ISAS > \u5b87\u5b99\u79d1\u5b66\u7814\u7a76\u6240",
+                "@language": "ja"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "DARTS help desk",
+              "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+          },
+          {
+            "@type": "Organization",
+            "url": "http://www.nasa.gov",
+            "sameAs": "https://ror.org/027ka1x80",
+            "name": [
+              {
+                "@value": "NASA > National Aeronautics and Space Administration",
+                "@language": "en"
+              },
+              {
+                "@value": "NASA > \u30a2\u30e1\u30ea\u30ab\u822a\u7a7a\u5b87\u5b99\u5c40",
+                "@language": "ja"
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "url": "https://www.esa.int/",
+            "sameAs": "https://ror.org/03wd9za21",
+            "name": [
+              {
+                "@value": "ESA > European Space Agency",
+                "@language": "en"
+              },
+              {
+                "@value": "ESA > \u6b27\u5dde\u5b87\u5b99\u6a5f\u95a2",
+                "@language": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/sql.php?sql=SELECT%0D%0Aobservation_id%2C%0D%0Aobject_name%2C%0D%0Acenter_ra%2C%0D%0Acenter_dec%2C%0D%0Aroll_angle%2C%0D%0Aobservation_start_time%2C%0D%0Aobservation_end_time%2C%0D%0Aresolve_exposure%2C%0D%0Axtend_exposure%2C%0D%0Aprocessing_date%2C%0D%0Apublic_date%2C%0D%0Adistribution_date%2C%0D%0Aprocessing_version%2C%0D%0Adata_access_url%0D%0AFROM+xrism_master_data%0D%0Awhere+observation_start_time_mjd+%3E+60209%0D%0Aorder+by+observation_start_time+desc%0D%0A&format=html#searched",
+          "description": "XRISM Observation Log"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/sql.php?sql=SELECT+%0D%0Aobject_name%2Ccenter_ra%2Ccenter_dec%2C%0D%0Aproposal_type%2Cproposal_priority%2Cawarded_exposure%2Cpi_name%2Cproposal_title%2Cproposal_abstract%0D%0AFROM+xrism_proposal%0D%0AWHERE+proposal_priority+IN+%28%27A%27%2C+%27C%27%29+AND+center_RA+%3E+-1%0D%0Aorder+by+center_ra&format=html#searched",
+          "description": "XRISM Proposals"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=xrism",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2?center_lng=360&center_lat=0&zoom=-2&coord=galactic&selectedLayer=XRISM_RESOLVE_PROTECTED_FOV,XRISM_XTEND_PROTECTED_FOV,Constellation&Base=ABL_P_DSS2_color&Top=AL_P_RASS&TopAlpha=50&GraphicAlpha=100",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/xrism/instruments.html",
+          "description": "XRISM Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/xrism/analysis.html",
+          "description": "XRISM Analysis"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://xrism.isas.jaxa.jp/research/",
+          "description": "XRISM page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.xrism.jaxa.jp/",
+          "description": "XRISM page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/xrism/",
+          "description": "XRISM page by NASA/GSFC HEASARC"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://cosmos.esa.int/web/xrism",
+          "description": "XRISM page by ESA"
+        }
+      ],
+      "temporalCoverage": "2023-09-22/.."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:akatsuki-collection",
+      "name": "AKATSUKI Collection",
+      "description": "Collection of Akatsuki data",
+      "url": "https://darts.isas.jaxa.jp/planet/project/akatsuki/",
+      "version": "na",
+      "keywords": [
+        "Akatsuki",
+        "Venus",
+        "Planetary"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "sameAs": "https://doi.org/10.17597/isas.darts/vco-00017",
+      "isAccessibleForFree": "true",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "FITS",
+          "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds3/extras/vco_ir1_l3_v1.0/"
+        }
+      ],
+      "temporalCoverage": "../.."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:akari-collection",
+      "name": "AKARI collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "\u300c\u3042\u304b\u308a\u300d\u306f\u30012006\u5e742\u670822\u65e5\u306b\u6253\u3061\u4e0a\u3052\u3089\u308c\u305f\u65e5\u672c\u521d\u306e\u8d64\u5916\u7dda\u5929\u6587\u885b\u661f\u3067\u3059\u3002\u300c\u3042\u304b\u308a\u300d\u306e\u4e3b\u306a\u30df\u30c3\u30b7\u30e7\u30f3\u306f\u3001\u6700\u9ad8\u306e\u611f\u5ea6\u3068\u7a7a\u9593\u5206\u89e3\u80fd\u3001\u305d\u3057\u3066\u6700\u3082\u5e83\u3044\u6ce2\u9577\u57df\u3067\u306e\u5168\u5929\u30b5\u30fc\u30d9\u30a4\u3092\u884c\u3046\u3053\u3068\u3067\u3059\u3002",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "AKARI is Japan's first dedicated infrared astronomical satellite (and the second infrared space mission following IRTS) launched on February 22, 2006. AKARI's primary mission is to carry out the all-sky survey with the best sensitivity, spatial resolution and the widest wavelengths.",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/astro/akari/",
+      "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+      ],
+      "hasPart": [
+        {
+          "name": "AKARI/IRC MIR-S slit-less spectroscopic catalogue",
+          "@id": "darts:akari-irc-spectrum-pointed-slitlessmir-1.0"
+        },
+        {
+          "name": "AKARI Pointed Observation Raw Data Version 2 (Phase 3)",
+          "@id": "darts:akari-irc-pointed-rawdatapack-2.0"
+        },
+        {
+          "name": "The Asteroid Catalog Using AKARI IRC Slow-Scan Observation",
+          "@id": "darts:akari-irc-catalogue-pointed-acua-iss-1.0"
+        },
+        {
+          "name": "AKARI Asteroid Flux Catalog Ver.1",
+          "@id": "darts:akari-irc-catalogue-allsky-astflux-1.0"
+        },
+        {
+          "name": "AKARI FIS Bright Source Catalogue Public Version 2",
+          "@id": "darts:akari-fis-catalogue-allsky-brightsource-2.0"
+        },
+        {
+          "name": "AKARI-NEP-Deep Mid-Infrared Source Catalogue Version 1",
+          "@id": "darts:akari-irc-catalogue-pointed-nepdeep-1.0"
+        },
+        {
+          "name": "AKARI/IRC Pointed Observation Images (Phase 1&2)",
+          "@id": "darts:akari-irc-image-pointed-poiphase1-2-1.0.1"
+        },
+        {
+          "name": "AKARI-LMC Point Source Catalogue",
+          "@id": "darts:akari-irc-catalogue-pointed-lmcpointsource-1.0"
+        },
+        {
+          "name": "AKARI IRC Point Source Catalogue Public Version 1",
+          "@id": "darts:akari-irc-catalogue-allsky-pointsource-1.0"
+        },
+        {
+          "name": "Asteroid catalog Using AKARI (AcuA)",
+          "@id": "darts:akari-irc-catalogue-allsky-acua-1.0"
+        },
+        {
+          "name": "AKARI-NEP-Wide IR Source Catalogue",
+          "@id": "darts:akari-irc-catalogue-pointed-nepwide-1.0"
+        },
+        {
+          "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+          "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0"
+        },
+        {
+          "name": "AKARI Far-infrared All-Sky Survey Maps",
+          "@id": "darts:akari-fis-image-allsky-map-2.1"
+        },
+        {
+          "name": "AKARI Near Low-resolution Spectral Catalogue of Diffuse Sky Patches",
+          "@id": "darts:akari-irc-spectrum-pointed-diffuseskypatch-1.0"
+        },
+        {
+          "name": "AKARI/IRC Pointed Observation Images in Post-Helium (Phase 3) Mission",
+          "@id": "darts:akari-irc-image-pointed-poiphase3-x.x"
+        },
+        {
+          "name": "AKARI Near-infrared Spectral Atlas of Galactic HII regions",
+          "@id": "darts:akari-irc-spectrum-pointed-galhii-1.0"
+        },
+        {
+          "name": "AKARI Near Infrared Asteroid Spectral Catalog Ver.1",
+          "@id": "darts:akari-irc-spectrum-pointed-acua-1.0"
+        },
+        {
+          "name": "AKARI/IRC NIR Spectral Atlas of Galactic Planetary Nebulae",
+          "@id": "darts:akari-irc-spectrum-pointed-galpn-1.0"
+        },
+        {
+          "name": "AKARI-LMC Point Source Catalogue",
+          "@id": "darts:akari-irc-spectrum-pointed-lmcpointsource-1.0"
+        },
+        {
+          "name": "AKARI FIS Bright Source Catalogue Public Version 1",
+          "@id": "darts:akari-fis-catalogue-allsky-brightsource-1.0"
+        },
+        {
+          "name": "IRC Point Source Spectroscopy Data",
+          "@id": "darts:akari-irc-spectrum-pointed-shortslit-1.0"
+        },
+        {
+          "name": "AKARI-NEP-Deep Mid-Infrared Source Catalogue Version 2",
+          "@id": "darts:akari-irc-catalogue-pointed-nepdeep-2.0"
+        }
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "isAccessibleForFree": "true",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "keywords": "MissionPaper",
+          "inLanguage": "en",
+          "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S369",
+          "description": "Murakami, H. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Astronomical Mission AKARI"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S423",
+          "description": "Kaneda, H. et al. (2007) Publications of the Astronomical Society of Japan - In-orbit focal adjustment of the AKARI telescope with IRC images"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S377",
+          "description": "Nakagawa, T. et al. (2007) Publications of the Astronomical Society of Japan - Flight Performance of the AKARI Cryogenic System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S401",
+          "description": "Onaka, T. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Camera (IRC) for AKARI -- Design and Imaging Performance"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentPaper",
+          "inLanguage": "en",
+          "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S389",
+          "description": "Kawada, M. et al. (2007) Publications of the Astronomical Society of Japan - The Far-Infrared Surveyor (FIS) for AKARI"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_DUM.pdf",
+          "description": "Egusa, F. et al. (2016) - AKARI IRC Data User Manual Version 2.2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_IDUM_P3_1.1.pdf",
+          "description": "Onaka, T. et al. (2009) - AKARI IRC Data User Manual for Phase 3 Version 1.1"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/FIS/IDUM/FIS_IDUM_1.3.pdf",
+          "description": "Verdugo, E. et al. (2007) - AKARI FIS Data User Manual Version 1.3"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "en",
+          "url": "https://doi.org/10.20637/JAXA-RM-19-004E/0001",
+          "description": "AKARI data guide for beginners Version 1.1"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousPaper",
+          "inLanguage": "ja",
+          "url": "https://doi.org/10.20637/0002000209",
+          "description": "\u300c\u3042\u304b\u308a\u300d\u30c7\u30fc\u30bf\u306e\u6b69\u304d\u65b9 Version 2.0"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "ObservationList",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/akari/operations/index.html",
+          "description": "AKARI Observation Programmes"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/akari/cas/index.html",
+          "description": "AKARI (ASTRO-F) Catalogue Archive Server"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=akari",
+          "description": "DARTS/Astro Query System"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "WebApplication",
+          "inLanguage": "en",
+          "url": "https://app.darts.isas.jaxa.jp/judo2/",
+          "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "PublicationList",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/publish/",
+          "description": "AKARI related publications"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "InstrumentDescription",
+          "inLanguage": "en",
+          "url": "https://darts.isas.jaxa.jp/astro/akari/instruments.html",
+          "description": "AKARI Instruments"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "AnalysisDescription",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/",
+          "description": "AKARI User Support"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/AKARI/index.html",
+          "description": "AKARI project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.cosmos.esa.int/web/akari",
+          "description": "AKARI project page by ESA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/akari.html",
+          "description": "AKARI page by ISAS/JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://global.jaxa.jp/projects/sas/astro_f/",
+          "description": "AKARI page by JAXA"
+        },
+        {
+          "@type": "CreativeWork",
+          "keywords": "MiscellaneousLink",
+          "inLanguage": "en",
+          "url": "https://www.ir.isas.jaxa.jp/",
+          "description": "Laboratory of Infrared Astrophysics (LIRA) at ISAS/JAXA"
+        }
+      ],
+      "temporalCoverage": [
+        "2006-05-08/2007-08-26",
+        "2008-06-01/2010-05-14"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "@id": "darts:curation-collection",
+      "name": "CURATION collection",
+      "description": [
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset(jp)",
+          "@language": "jp"
+        },
+        {
+          "@type": "HTML",
+          "@value": "description of the dataset",
+          "@language": "en"
+        }
+      ],
+      "url": "https://darts.isas.jaxa.jp/curation",
+      "version": "version_name",
+      "keywords": [
+        "CURATION",
+        "Planetary Science"
+      ],
+      "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "creator": [
+        {
+          "@type": "Organization",
+          "url": "https://www.jaxa.jp/",
+          "sameAs": "https://ror.org/059yhyy33",
+          "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.isas.jaxa.jp/",
+          "sameAs": "https://ror.org/034gcgw60",
+          "name": "ISAS > Institute of Space and Astronautical Science",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "DARTS help desk",
+            "email": "darts-admin@ML.isas.jaxa.jp"
+          }
+        }
+      ],
+      "isAccessibleForFree": "true"
+    }
+  ]
+}

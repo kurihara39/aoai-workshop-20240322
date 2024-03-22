@@ -1,0 +1,724 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00200",
+    "name": "Hayabusa2 Optical Navigation Camera (ONC) Bundle",
+    "description": "This PDS4 bundle collects all the operational data products produced by the Hayabusa2 ONC instrument.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-00200.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "observation:Optical", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6076-3614",
+                "givenName": "Seiji",
+                "familyName": "SUGITA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SUGITA, Seiji"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "杉田 精司"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7008-5300",
+                "givenName": "Rie",
+                "familyName": "HONDA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HONDA, Rie"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "本田 理恵"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.ehime-u.ac.jp/en/en_page-prospective-students/",
+                    "sameAs": "https://ror.org/017hkng22",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Ehime University"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "愛媛大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0500-4591",
+                "givenName": "Tomokatsu",
+                "familyName": "MOROTA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MOROTA, Tomokatsu"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "諸田 智克"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-9084-2858",
+                "givenName": "Shingo",
+                "familyName": "KAMEDA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "KAMEDA, Shingo"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "亀田 真吾"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://english.rikkyo.ac.jp/",
+                    "sameAs": "https://ror.org/00x194q47",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Rikkyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "立教大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-8731-6889",
+                "givenName": "Hirotaka",
+                "familyName": "SAWADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SAWADA, Hirotaka"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "澤田 弘崇"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-9230-974X",
+                "givenName": "Yasuhiro",
+                "familyName": "YOKOTA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YOKOTA, Yasuhiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "横田 康弘"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-8381-666X",
+                "givenName": "Manabu",
+                "familyName": "YAMADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMADA, Manabu"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山田 学"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.it-chiba.ac.jp/",
+                    "sameAs": "https://ror.org/00qwnam72",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Chiba Institute of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "千葉工業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-1060-3986",
+                "givenName": "Toru",
+                "familyName": "KOUYAMA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KOUYAMA, Toru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "神山 徹"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "name": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-6142-9842",
+                "givenName": "Eri",
+                "familyName": "TATSUMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "TATSUMI, Eri"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "巽 瑛理"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.iac.es/",
+                    "sameAs": "https://ror.org/03cmntr54",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Instituto de Astrofísica de Canarias"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "カナリア諸島天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7070-2065",
+                "givenName": "Hidehiko",
+                "familyName": "SUZUKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SUZUKI, Hidehiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "鈴木 秀彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.meiji.ac.jp/cip/english/index.html",
+                    "sameAs": "https://ror.org/02rqvrp93",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Meiji University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "明治大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-2749-2204",
+                "givenName": "Yuichiro",
+                "familyName": "CHO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "CHO, Yuichiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "長 勇一郎"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-4791-5227",
+                "givenName": "Naoya",
+                "familyName": "SAKATANI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SAKATANI, Naoya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "坂谷 尚哉"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-1091-3041",
+                "givenName": "Moe",
+                "familyName": "MATSUOKA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MATSUOKA, Moe"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "松岡 萌"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "name": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-9002-7634",
+                "givenName": "Masahiko",
+                "familyName": "HAYAKAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HAYAKAWA, Masahiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "早川 雅彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6160-9360",
+                "givenName": "Koki",
+                "familyName": "YUMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YUMOTO, Koki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "湯本 航生"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-4921-5435",
+                "givenName": "Chikatoshi",
+                "familyName": "HONDA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HONDA, Chikatoshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "本田 親寿"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4856-7108",
+                "givenName": "Kazunori",
+                "familyName": "OGAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OGAWA, Kazunori"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "小川 和律"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-5451-9367",
+                "givenName": "Kazuo",
+                "familyName": "YOSHIKAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YOSHIKAWA, Kazuo"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "吉岡 和夫"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7172-1911",
+                "givenName": "Yukio",
+                "familyName": "YAMAMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAMOTO, Yukio"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山本 幸生"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-5541-7060",
+                "givenName": "M. Katherine",
+                "familyName": "Crombie",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Crombie, M. Katherine"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "sameAs": "https://ror.org/02tbvs543",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Indigo Information Services"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "インディゴ情報サービス"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00200",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": ["FITS","XML","CSV","要確認"],
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2_onc/"
+        }
+    ],
+    "temporalCoverage": [
+        "2014-12-03/2014-12-18",
+        "2015-02-19/2015-02-26",
+        "2015-04-16/2015-06-30",
+        "2015-09-10/2015-12-22",
+        "2016-02-09/2016-03-21",
+        "2016-05-24/2016-08-22",
+        "2016-10-04/2016-10-22",
+        "2017-03-12/2017-08-29",
+        "2017-10-10/2017-12-05",
+        "2018-02-26/2018-02-26",
+        "2018-04-30/2018-05-07",
+        "2018-06-05/2019-11-19"
+    ]
+}

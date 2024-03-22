@@ -1,0 +1,186 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:calet-collections",
+    "name": "CALET collections",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "高エネルギー電子とガンマ線を観測する装置「CALorimetric Electron Telescope (CALET)」は、日本初の本格的な宇宙線観測プロジェクトです。CALETはJAXAと早稲田大学がイタリア、アメリカと共同で開発し、2015年8月25日に国際宇宙ステーションの「きぼう」日本実験棟船外実験プラットフォームに設置されました。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "The CALorimetric Electron Telescope (CALET), an apparatus for observing high-energy electrons and gamma-rays, is Japan’s first full-scale project for observing cosmic rays in space. CALET has been developed by JAXA and Waseda University in collaboration with Italy and USA. It was installed to the Exposed Facility of the Japanese Experiment Module \"Kibo\" of the International Space Station on August 25, 2015.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/calet/",
+    "keywords": [
+        "CALET",
+        "Astrophysics",
+        "Electron",
+        "Gamma-ray"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "hasPart": [
+      {
+          "name": "CALET CHD Monitor data for space weather",
+          "@id": "darts:calet-cal-chd"
+      },
+      {
+          "name": "CALET CAL energy spectrum data of various particles",
+          "@id": "darts:calet-cal-spectrum"
+      },
+      {
+          "name": "CALET CGBM Gammaray burst Monitor data",
+          "@id": "darts:calet-cgbm"
+      }
+    ],
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": [
+                {
+                    "@value": "JAXA > Japan Aerospace Exploration Agency",
+                    "@language": "en"
+                },
+                {
+                    "@value": "JAXA > 宇宙航空研究開発機構",
+                    "@language": "jp"
+                }
+            ]
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": [
+                {
+                    "@value": "ISAS > Institute of Space and Astronautical Science",
+                    "@language": "en"
+                },
+                {
+                    "@value": "ISAS > 宇宙科学研究所",
+                    "@language": "jp"
+                }
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.waseda.jp/top/",
+            "sameAs": "https://ror.org/00ntfnx83",
+            "name": [
+                {
+                    "@value": "Waseda University",
+                    "@language": "en"
+                },
+                {
+                    "@value": "早稲田大学",
+                    "@language": "jp"
+                }
+            ]
+        },
+        {
+            "@type": "Organization",
+            "url": "https://home.infn.it/it/",
+            "sameAs": "https://ror.org/005ta0471",
+            "name": [
+                {
+                    "@value": "Istituto Nazionale di Fisica Nucleare",
+                    "@language": "it"
+                },
+                {
+                    "@value": "National Institute for Nuclear Physics",
+                    "@language": "en"
+                },
+                {
+                    "@value": "イタリア国立核物理研究所",
+                    "@language": "ja"
+                }
+            ]
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.lsu.edu/",
+            "sameAs": "https://ror.org/05ect4e57",
+            "name": [
+                {
+                    "@value": "Louisiana State University",
+                    "@language": "en"
+                },
+                {
+                    "@value": "ルイジアナ州立大学",
+                    "@language": "jp"
+                }
+            ]
+        }
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.22323/1.236.0581",
+            "description": "Torii, S. (2015) Proceedings of the 34th International Cosmic Ray Conference - The CALorimetric Electron Telescope (CALET): a High-Energy Astroparticle Physics Observatory on the International Space Station"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.48550/arXiv.1311.4084",
+            "description": "Yamaoka K. et al. (2013) arXiv - The CALET Gamma-ray Burst Monitor (CGBM)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/calet/instruments.html",
+            "description": "CALET Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://calet.jp/",
+            "description": "CALET project page by Waseda University"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "http://cgbm.calet.jp/docs/home.html",
+            "description": "CALET Gamma-ray Burst Monitor page"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "http://calet.pi.infn.it/",
+            "description": "CALET project page by Italy Istituto Nazionale di Fisica Nucleare"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "http://calet.phys.lsu.edu/",
+            "description": "CALET project page by Louisiana State University"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://iss.jaxa.jp/en/kiboexp/ef/calet/",
+            "description": "CALET page by JAXA"
+        }
+    ],
+    "temporalCoverage":"2015-10-05/2024-02-15"
+}

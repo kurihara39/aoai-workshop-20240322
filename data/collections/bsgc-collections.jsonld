@@ -1,0 +1,126 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:bsgc-collection",
+    "name": "BSGC collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "Bisei Spaceguard Center (BSGC) は、日本岡山県猪原市の美星町にある光学望遠鏡施設です。BSGC は、口径 1 m、50 cm、25 cm の望遠鏡を使用して、地球に接近する小惑星、機能しなくなった人工衛星やロケット、軌道上のゴミなどを追跡しています。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "The Bisei Spaceguard Center (BSGC) is an optical telescope facility located in Bisei Town, Ibara City, Japan. BSGC tracks the asteroids that approach the earth, nonfunctional satellites and rockets, and orbital debris using the 1 m, 50 cm, and 25 cm telescopes.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/bsgc/",
+    "keywords": [
+        "BSGC",
+        "Astrophysics",
+        "Optical"
+    ],
+    "hasPart": [
+        {
+            "name": "BSGC dataset",
+            "@id": "darts:bsgc-data"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "jp"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "jp"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "https://global.jaxa.jp/about/centers/bsgc/index.html",
+                "name": [
+                    {
+                        "@value": "Bisei Space Guard Center",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "美星スペースガードセンター",
+                        "@language": "jp"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=bsgc",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/bsgc/instruments.html",
+            "description": "BSGC Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/bsgc/publications.html",
+            "description": "BSGC Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://www.spaceguard.or.jp/",
+            "description": "日本スペースガード協会 - Japan Spaceguard Association (JSGA)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://global.jaxa.jp/about/centers/bsgc/index.html",
+            "description": "JAXA Bisei Spaceguard Center Page"
+        }
+    ],
+    "temporalCoverage": [
+        "2000-06-14/2002-09-07",
+        "2007-03-22/2017-03-30"
+    ]
+}

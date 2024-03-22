@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:arase-pwe-ofa",
+    "name": "ARASE dataset",
+    "description": "description of the dataset(jp)",
+    "url": "https://data.darts.isas.jaxa.jp/pub/arase",
+    "version": "version_name",
+    "keywords": [
+        "ARASE",
+        "Solar-Terrestrial Physics"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "sameAs": "https://doi.org/10.1234/1234567890",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": [
+        "1980-11-30T00:09:44/2004-10-25T18:53:03",
+        "2015-03-20T18:48:17/2015-07-14T20:46:56",
+        "2016-06-19T08:09:17/2019-01-12T02:03:06",
+        "2019-11-21T18:01:10/2021-11-10T21:54:43"
+    ]
+}

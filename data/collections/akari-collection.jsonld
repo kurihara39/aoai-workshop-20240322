@@ -1,0 +1,295 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-collection",
+    "name": "AKARI collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「あかり」は、2006年2月22日に打ち上げられた日本初の赤外線天文衛星です。「あかり」の主なミッションは、最高の感度と空間分解能、そして最も広い波長域での全天サーベイを行うことです。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "AKARI is Japan's first dedicated infrared astronomical satellite (and the second infrared space mission following IRTS) launched on February 22, 2006. AKARI's primary mission is to carry out the all-sky survey with the best sensitivity, spatial resolution and the widest wavelengths.",
+            "@language" : "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/akari/",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "hasPart": [
+        {
+            "name": "AKARI/IRC MIR-S slit-less spectroscopic catalogue",
+            "@id": "darts:akari-irc-spectrum-pointed-slitlessmir-1.0"
+        },
+        {
+            "name": "AKARI Pointed Observation Raw Data Version 2 (Phase 3)",
+            "@id": "darts:akari-irc-pointed-rawdatapack-2.0"
+        },
+        {
+            "name": "The Asteroid Catalog Using AKARI IRC Slow-Scan Observation",
+            "@id": "darts:akari-irc-catalogue-pointed-acua-iss-1.0"
+        },
+        {
+            "name": "AKARI Asteroid Flux Catalog Ver.1",
+            "@id": "darts:akari-irc-catalogue-allsky-astflux-1.0"
+        },
+        {
+            "name": "AKARI FIS Bright Source Catalogue Public Version 2",
+            "@id": "darts:akari-fis-catalogue-allsky-brightsource-2.0"
+        },
+        {
+            "name": "AKARI-NEP-Deep Mid-Infrared Source Catalogue Version 1",
+            "@id": "darts:akari-irc-catalogue-pointed-nepdeep-1.0"
+        },
+        {
+            "name": "AKARI/IRC Pointed Observation Images (Phase 1&2)",
+            "@id": "darts:akari-irc-image-pointed-poiphase1-2-1.0.1"
+        },
+        {
+            "name": "AKARI-LMC Point Source Catalogue",
+            "@id": "darts:akari-irc-catalogue-pointed-lmcpointsource-1.0"
+        },
+        {
+            "name": "AKARI IRC Point Source Catalogue Public Version 1",
+            "@id": "darts:akari-irc-catalogue-allsky-pointsource-1.0"
+        },
+        {
+            "name": "Asteroid catalog Using AKARI (AcuA)",
+            "@id": "darts:akari-irc-catalogue-allsky-acua-1.0"
+        },
+        {
+            "name": "AKARI-NEP-Wide IR Source Catalogue",
+            "@id": "darts:akari-irc-catalogue-pointed-nepwide-1.0"
+        },
+        {
+            "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+            "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0"
+        },
+        {
+            "name": "AKARI Far-infrared All-Sky Survey Maps",
+            "@id": "darts:akari-fis-image-allsky-map-2.1"
+        },
+        {
+            "name": "AKARI Near Low-resolution Spectral Catalogue of Diffuse Sky Patches",
+            "@id": "darts:akari-irc-spectrum-pointed-diffuseskypatch-1.0"
+        },
+        {
+            "name": "AKARI/IRC Pointed Observation Images in Post-Helium (Phase 3) Mission",
+            "@id": "darts:akari-irc-image-pointed-poiphase3-x.x"
+        },
+        {
+            "name": "AKARI Near-infrared Spectral Atlas of Galactic HII regions",
+            "@id": "darts:akari-irc-spectrum-pointed-galhii-1.0"
+        },
+        {
+            "name": "AKARI Near Infrared Asteroid Spectral Catalog Ver.1",
+            "@id": "darts:akari-irc-spectrum-pointed-acua-1.0"
+        },
+        {
+            "name": "AKARI/IRC NIR Spectral Atlas of Galactic Planetary Nebulae",
+            "@id": "darts:akari-irc-spectrum-pointed-galpn-1.0"
+        },
+        {
+            "name": "AKARI-LMC Point Source Catalogue",
+            "@id": "darts:akari-irc-spectrum-pointed-lmcpointsource-1.0"
+        },
+        {
+            "name": "AKARI FIS Bright Source Catalogue Public Version 1",
+            "@id": "darts:akari-fis-catalogue-allsky-brightsource-1.0"
+        },
+        {
+            "name": "IRC Point Source Spectroscopy Data",
+            "@id": "darts:akari-irc-spectrum-pointed-shortslit-1.0"
+        },
+        {
+            "name": "AKARI-NEP-Deep Mid-Infrared Source Catalogue Version 2",
+            "@id": "darts:akari-irc-catalogue-pointed-nepdeep-2.0"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S369",
+            "description": "Murakami, H. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Astronomical Mission AKARI"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S423",
+            "description": "Kaneda, H. et al. (2007) Publications of the Astronomical Society of Japan - In-orbit focal adjustment of the AKARI telescope with IRC images"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S377",
+            "description": "Nakagawa, T. et al. (2007) Publications of the Astronomical Society of Japan - Flight Performance of the AKARI Cryogenic System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S401",
+            "description": "Onaka, T. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Camera (IRC) for AKARI -- Design and Imaging Performance"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "http://dx.doi.org/10.1093/pasj/59.sp2.S389",
+            "description": "Kawada, M. et al. (2007) Publications of the Astronomical Society of Japan - The Far-Infrared Surveyor (FIS) for AKARI"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_DUM.pdf",
+            "description": "Egusa, F. et al. (2016) - AKARI IRC Data User Manual Version 2.2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_IDUM_P3_1.1.pdf",
+            "description": "Onaka, T. et al. (2009) - AKARI IRC Data User Manual for Phase 3 Version 1.1"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/FIS/IDUM/FIS_IDUM_1.3.pdf",
+            "description": "Verdugo, E. et al. (2007) - AKARI FIS Data User Manual Version 1.3"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.20637/JAXA-RM-19-004E/0001",
+            "description": "AKARI data guide for beginners Version 1.1"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousPaper",
+            "inLanguage": "ja",
+            "url": "https://doi.org/10.20637/0002000209",
+            "description": "「あかり」データの歩き方 Version 2.0"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/akari/operations/index.html",
+            "description": "AKARI Observation Programmes"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/akari/cas/index.html",
+            "description": "AKARI (ASTRO-F) Catalogue Archive Server"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=akari",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/publish/",
+            "description": "AKARI related publications"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/akari/instruments.html",
+            "description": "AKARI Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/Observation/support/",
+            "description": "AKARI User Support"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/AKARI/index.html",
+            "description": "AKARI project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.cosmos.esa.int/web/akari",
+            "description": "AKARI project page by ESA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/akari.html",
+            "description": "AKARI page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://global.jaxa.jp/projects/sas/astro_f/",
+            "description": "AKARI page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/",
+            "description": "Laboratory of Infrared Astrophysics (LIRA) at ISAS/JAXA"
+        }
+    ],
+    "temporalCoverage": [
+        "2006-05-08/2007-08-26",
+        "2008-06-01/2010-05-14"
+    ]
+}

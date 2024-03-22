@@ -1,0 +1,197 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00403",
+    "name": "Hayabusa2 NIRS3 Bundle: Raw Data Collection",
+    "description": "This PDS4 collection contains the raw science data products produced by the NIRS3 instrument onboard the Hayabusa2 spacecraft.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-00403.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "observation:Infrared", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4809-7492",
+                "givenName": "Kohei",
+                "familyName": "KITAZATO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KITAZATO, Kohei"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "北里 宏平"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4613-7956",
+                "givenName": "Takahiro",
+                "familyName": "IWATA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "IWATA, Takahiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "岩田 隆浩"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-4780-800X",
+                "givenName": "Masanao",
+                "familyName": "ABE",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ABE, Masanao"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "阿部 正真"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-9464-3012",
+                "givenName": "Makiko",
+                "familyName": "OHTAKE",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OHTAKE, Makiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "大竹 真紀子"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00403",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": ["FITS","XML","CSV"],
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2_nirs3/data_raw/"
+        }
+    ],
+    "temporalCoverage":[
+        "2014-12-10/2015-02-23",
+        "2015-04-09/2015-09-04",
+        "2015-10-15/2015-12-21",
+        "2015-12-25/2017-12-16",
+        "2018-06-07/2018-06-22",
+        "2018-06-29/2019-11-04",
+        "2020-02-25/2020-04-30"
+    ]
+}

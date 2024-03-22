@@ -1,0 +1,830 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00300",
+    "name": "Hayabusa2 Thermal Infrared Imager (TIR) Bundle",
+    "description": "This PDS4 bundle collects all the operational data products produced by the Hayabusa2 TIR instrument.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-00300.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "observation:Infrared", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6381-8107",
+                "givenName": "Tatsuaki",
+                "familyName": "OKADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OKADA, Tasuaki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "岡田 達明"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4874-0417",
+                "givenName": "Satoshi",
+                "familyName": "TANAKA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "TANAKA, Satoshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "田中 智"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7974-232X",
+                "givenName": "Tetsuya",
+                "familyName": "FUKUHARA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "FUKUHARA, Tetsuya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "福原 哲哉"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-5711-7731",
+                "givenName": "Takehiko",
+                "familyName": "ARAI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ARAI, Takehiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "荒井 武彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.maebashi-it.ac.jp/",
+                    "sameAs": "https://ror.org/01x05rm94",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Maebashi Institute of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "前橋工科大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-9470-4492",
+                "givenName": "Takeshi",
+                "familyName": "IMAMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "IMAMURA, Takeshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "今村 剛"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Yoshiko",
+                "familyName": "OGAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OGAWA, Yoshiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "小川 佳子"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4809-7492",
+                "givenName": "Kohei",
+                "familyName": "KITAZATO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KITAZATO, Kohei"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "北里 宏平"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-1060-3986",
+                "givenName": "Toru",
+                "familyName": "KOUYAMA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KOUYAMA, Toru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "神山 徹"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "name": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-4791-5227",
+                "givenName": "Naoya",
+                "familyName": "SAKATANI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SAKATANI, Naoya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "坂谷 尚哉"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-8966-7650",
+                "givenName": "Yuri",
+                "familyName": "SHIMAKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SHIMAKI, Yuri"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "嶌生 有理"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-1726-6158",
+                "givenName": "Tomohiko",
+                "familyName": "SEKIGUCHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SEKIGUCHI, Tomohiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "関口 朋彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.hokkyodai.ac.jp/",
+                    "sameAs": "https://ror.org/02gn38d51",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Hokkaido University of Education"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "北海道教育大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-8381-666X",
+                "givenName": "Hiroki",
+                "familyName": "SENSHU",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SENSHU, Hiroki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "千秋 博紀"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.it-chiba.ac.jp/",
+                    "sameAs": "https://ror.org/00qwnam72",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Chiba Institute of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "千葉工業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-5240-7369",
+                "givenName": "Jun",
+                "familyName": "TAKITA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "TAKITA, Jun"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "滝田 隼"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "http://www.kitamihokuto.hokkaido-c.ed.jp/",
+                    "sameAs": "https://ror.org/01g46vk97",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Hokkaido Kitami Hokuto High School"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "北海道北見北斗高等学校"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-2907-2265",
+                "givenName": "Makoto",
+                "familyName": "TAGUCHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "TAGUCHI, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "田口 真"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://english.rikkyo.ac.jp/",
+                    "sameAs": "https://ror.org/00x194q47",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Rikkyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "立教大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-6257-2042",
+                "givenName": "Hirohide",
+                "familyName": "DEMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "DEMURA, Hirohide"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "出村 裕英"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ryosuke",
+                "familyName": "NAKAMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "NAKAMURA, Ryosuke"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "中村 良介"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "name": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6366-2608",
+                "givenName": "Sunao",
+                "familyName": "HASEGAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HASEGAWA, Sunao"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "長谷川 直"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3380-5230",
+                "givenName": "Tsuneo",
+                "familyName": "MATSUNAGA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MATSUNAGA, Tsuneo"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "松永 恒雄"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nies.go.jp/",
+                    "sameAs": "https://ror.org/02hw5fp67",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "National Institute for Environmental Studies"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "国立環境研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200901086631386636",
+                "givenName": "Takehiko",
+                "familyName": "WADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "WADA, Takehiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "和田 武彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-5346-9505",
+                "givenName": "Jörn",
+                "familyName": "Helbert",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Helbert, Jörn"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0717-0462",
+                "givenName": "Thomas G.",
+                "familyName": "Müller",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Müller, Thomas G."
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.mpe.mpg.de/main",
+                    "sameAs": "https://ror.org/00e4bwe12",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Max Planck Institute for extraterrestrial Physics"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "マックス・プランク宇宙物理学研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-1818-9396",
+                "givenName": "Axel",
+                "familyName": "Hagermann",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Hagermann, Axel"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.ltu.se/",
+                    "sameAs": "https://ror.org/00e4bwe12",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Luleå University of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ルレオ工科大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7414-829X",
+                "givenName": "Jens",
+                "familyName": "Biele",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Biele, Jens"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-8613-7096",
+                "givenName": "Matthias",
+                "familyName": "Grott",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Grott, Matthias"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7476-0892",
+                "givenName": "Maximilian",
+                "familyName": "Hamm",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Hamm, Maximilian"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Marco",
+                "familyName": "Delbo",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Delbo, Marco"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.oca.eu/?lang=en",
+                    "sameAs": "https://ror.org/039fj2469",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Côte d'Azur Observatory"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "コートダジュール天文台"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00300",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": ["FITS","XML","CSV"],
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2_tir/"
+        }
+    ],
+    "temporalCoverage": [
+        "2015-10-14/2015-12-21",
+        "2016-06-09/2016-06-09",
+        "2018-06-06/2018-06-22",
+        "2018-06-29/2019-11-12"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akebono-data",
+    "name": "AKEBONO dataset",
+    "description": "description of the dataset(jp)",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akebono",
+    "version": "version_name",
+    "keywords": [
+        "AKEBONO",
+        "Solar-Terrestrial Physics"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "sameAs": "https://doi.org/10.1234/1234567890",
+    "isAccessibleForFree": "true"
+}

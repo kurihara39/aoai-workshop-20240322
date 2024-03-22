@@ -1,0 +1,104 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:bice-collection",
+    "name": "BICE collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "1991年と1992年に、極低温ファブリーペロー分光器を備えた気球搭載望遠鏡(BICE, the Balloon-borne Infrared Carbon Explorer 気球搭載赤外線炭素探査機)を用いて、158ミクロンにおける[CII]線放射の広範な銀河面サーベイが行われた(Okuda et al. 1994)。銀河経度-106 [deg] から+26 [deg] まで、銀河緯度±5 [deg] までの[CII]線の積分強度を精密に測定した。[CII]線発光は、中程度の電離領域で生成され、星間空間における物理的・化学的過程や銀河系の大域的な構造の重要なプローブとして利用されている。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "An extensive galactic plane survey of [CII] line emission at 158 microns has been made in 1991 and 1992 by using a balloon-borne telescope (BICE, the Balloon-borne Infrared Carbon Explorer) with a cryogenically cooled Fabry-Perot spectrometer (Okuda et al. 1994). Integrated intensities of the extended [CII] line emission from -106 [deg] to +26 [deg] in galactic longitude and ±5 [deg] in galactic latitude were precisely measured. The [CII] line emission is generated in moderately ionized region, and used as an important probe of physical and chemical processes in the interstellar space and global structure of the Galaxy.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/bice/",
+    "keywords": [
+        "BICE",
+        "Astrophysics",
+        "Infrared",
+        "CII"
+    ],
+    "hasPart": [
+        {
+            "name": "BICE dataset",
+            "@id": "darts:bice-data"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1016/1350-4495(94)90097-3",
+            "description": "Okuda, H. et al. (1994) Infrared Physics & Technology - Large scale [CII] line emission in the galaxy observed by stratospheric balloons"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/bice/instruments.html",
+            "description": "BICE Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/bice/publications.html",
+            "description": "BICE Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/bice_E.html",
+            "description": "BICE project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/balloons/",
+            "description": "Scientific Balloon Project Page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://global.jaxa.jp/projects/sas/balloon/",
+            "description": "Scientific Balloon Project Page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/",
+            "description": "Laboratory of Infrared Astrophysics (LIRA) at ISAS/JAXA"
+        }
+    ],
+    "temporalCoverage": "1991/1992"
+}

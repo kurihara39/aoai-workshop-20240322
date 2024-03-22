@@ -1,0 +1,89 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:tenma-collection",
+    "name": "Tenma collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「てんま」（Astro-B、1983年2月20日打ち上げ）は、「はくちょう」（1979年打ち上げ）に続く日本で2番目のX線天文衛星である。高感度シンチレーション比例計数管（SPC）を搭載し、多くの銀河系・銀河系外天体のX線分光を行いました。1989年1月19日、「てんま」は大気圏に再突入しました。 「てんま」のテレメトリデータは、宇宙科学研究本部のSIRIUSデータベースシステムに保存されています。DARTSでは、「てんま」の観測ログをアーカイブしています。データ処理ソフトや解析ソフトはアーカイブ化されていないため、天馬の科学的なデータ解析はサポートできない可能性があります。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "Tenma (Astro-B; launched Feb 20, 1983) was Japan's second X-ray satellite following its predecessor Hakucho (launched in 1979). Tenma carried sensitive scintillation proportional counters (SPC), with which X-ray spectroscopy of many Galactic and extra Galactic sources have been carried out. Tenma reentered atmosphere ion January 19, 1989. Tenma raw telemetry data are archived at ISAS in the SIRIUS database system. At DARTS, we archive observation log of Tenma. Data processing software and analysis software have not been archived, so we may not support scientific data analysis of Tenma.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/tenma/",
+    "keywords": [
+        "Tenma",
+        "Astrophysics",
+        "X-ray"
+    ],
+    "hasPart": [
+        {
+            "name": "Tenma dataset",
+            "@id": "darts:tenma-data"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/tenma/tenma_obslog.html",
+            "description": "Tenma Observatopn Log"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/tenma/bibliography_83Feb_87Feb.pdf",
+            "description": "Tenma Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/tenma/instruments.html",
+            "description": "Tenma Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/tenma.html",
+            "description": "Tenma page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/tenma/tenma.html",
+            "description": "Tenma page by NASA/GSFC HEASARC"
+        }
+    ],
+    "temporalCoverage": "1983-02-20/1989-01-19"
+}

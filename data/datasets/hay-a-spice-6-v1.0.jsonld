@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hay-a-spice-6-v1.0",
+    "name": "HAYABUSA SPICE KERNELS V1.0",
+    "description": "This data set includes the complete set of Hayabusa SPICE data files (``kernel files'') for the surveying and collection phases of the mission. The SPICE data files, which can be accessed using SPICE software, contain geometric and other ancillary information needed to recover the full value of the science instrument data. In particular SPICE kernels provide spacecraft and planetary ephemerides, instrument mounting alignments, spacecraft orientation, spacecraft sequences of events, and data needed for relevant time conversions.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/pds3/hay-a-spice-6-v1.0/",
+    "version": "1.0",
+    "keywords": [
+        "mission:HAYABUSA",
+        "field:PlanetaryScience",
+        "observation:Orbit",
+        "observation:Altitude",
+        "target:Asteroid",
+        "target:25143 Itokawa",
+        "other:PDS",
+        "other:SPICE"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "temporalCoverage": "2005-09-11/2005-11-19"
+}

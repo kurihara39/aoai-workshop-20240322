@@ -1,0 +1,166 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:irts-collection",
+    "name": "IRTS collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "IRTS (Infrared Telescope in Space) は、1995年3月18日にH-IIロケットによって打ち上げられ、1996年1月13日にNASAスペースシャトルSTS-72によって回収された宇宙フライヤーユニット（SFU）に搭載された実験の1つです。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "IRTS (Infrared Telescope in Space) is one of the experiments on-board the Space Flyer Unit (SFU), which was launched by the H-II rocket on March 18, 1995, and retrieved by the NASA Space Shuttle STS-72 on January 13, 1996.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/irts/",
+    "keywords": [
+        "IRTS",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "hasPart": [
+        {
+            "name": "IRTS dataset",
+            "@id": "darts:irts-data"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "isAccessibleForFree": "true",
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1093/pasj/48.5.L41",
+            "description": "Murakami, H. et al. (1996) Publications of the Astronomical Society of Japan - The IRTS (Infrared Telescope in Space) Mission"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1117/12.255185",
+            "description": "Manabu, N. et al. (1996) SPIE - Flight performance of the Near-Infrared Spectrometer"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1117/12.255187",
+            "description": "Roellig, T. L. et al. (1996) SPIE - Flight performance of the Mid-Infrared Spectrometer on the Infrared Telescope in Space mission"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1117/12.255188",
+            "description": "Shibai, H. et al. (1996) SPIE - Flight performance of the Far-Infrared Line Mapper (FILM)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1117/12.255189",
+            "description": "Hirao, T. et al. (1996) SPIE - Flight performance of the Far-Infrared Photometer (FIRP)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/quick_look/irts/html/irts_scan_path.html",
+            "description": "Spatial Imtensity Map Scan Path"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/irts/search_mirs_psc.html",
+            "description": "IRTS MIRS PSC Search"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/irts/search_map.html",
+            "description": "IRTS Map Search"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=irts",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/irts/papers.html",
+            "description": "IRTS Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/irts/instruments/",
+            "description": "IRTS Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/irts/irts_E.html",
+            "description": "IRTS project page by Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/sfu.html",
+            "description": "SFU page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ir.isas.jaxa.jp/",
+            "description": "Laboratory of Infrared Astrophysics at ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://www-ir.u.phys.nagoya-u.ac.jp/",
+            "description": "名古屋大学 宇宙物理学研究室 赤外線グループ (UIR) - Laboratory of Infrared Astrophysics at Nagoya Univ."
+        }
+    ],
+    "temporalCoverage": "1995-03-30/1995-04-26"
+}

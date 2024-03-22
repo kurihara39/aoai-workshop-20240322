@@ -1,0 +1,201 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:maxi-collection",
+    "name": "MAXI (Monitor of All-sky X-ray Image) data collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "MAXI (全天X線監視装置)は国際宇宙ステーション「きぼう」船外実験プラットフォームに取り付けられた観測装置で、JAXAと理研の協力のもとに開発されました. MAXIは広い視野をもち、過去の同種の観測装置に比べて1桁高い検出感度を持っています。MAXIの観測は2009年に開始されました。より詳細な情報は理化学研究所のホームページに掲載され、そこでは天体ごとの光度データなど詳細なデータプロダクトも入手できます。MAXIは2つの観測装置、ガススリットカメラ(GSC)とソリッドステート・スリットカメラ(SSC)をしています。GSCは12台の1次元ガス比例計数管から構成され、2-30 keVに感度があります。SSCはそれぞれ16枚のCCDチップを使った2台のカメラから構成され、0.5-12 keVに感度を持ちます.",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "MAXI (Monitor of All-sky X-ray Image) is mounted on the Japanese Experimental Module (KIBO) of the International Space Station. MAXI has been developed in collaboration of JAXA and RIKEN. MAXI has not only a wide field of view, but also a higher sensitivity than previous all-sky monitors by an order of magnitude. The observation has started in August 2009. More detailed information on MAXI can be found in the MAXI homepage at RIKEN, which produces and archives high-level data products such as images and light-curves for public release. MAXI carries two types of instruments, Gas Slit Camera (GSC) and Solid-state Slit Camera (SSC). The GSC is composed of 12 one-dimensional PSPCs (counter ID = 0-9, A, B), and covers the 2 -- 30 keV energy range with an energy resolution of 18 % (5.9 keV). The SSC is composed of two cameras, SSC-H and SSC-Z, each has 16 chips of X-ray CCDs, and covers the 0.5 -- 12 keV energy range with an energy resolution of < 150 eV (5.9 keV).",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/maxi/",
+    "keywords": [
+        "MAXI",
+        "Astrophysics",
+        "X-rays",
+        "Transients"
+    ],
+    "hasPart": [
+        {
+            "name": "MAXI/GSC All-sky X-ray maps",
+            "@id": "darts:maxi-gsc-allsky"
+        },
+        {
+            "name": "MAXI/SSC All-sky X-ray maps",
+            "@id": "darts:maxi-ssc-allsky"
+        },
+        {
+            "name": "MAXI All sky X-ray Monitor data for standard analysis",
+            "@id": "darts:maxi-stddata"
+        },
+        {
+            "name": "MAXI/RBM timeseries data",
+            "@id": "darts:maxi-rbm-timeseries"
+        }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": true,
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.riken.jp/",
+            "sameAs": "https://ror.org/01sjwvz98",
+            "name": "RIKEN > Institute of Physical and Chemical Research"
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0001-9307-046X",
+            "givenName": "Satoshi",
+            "familyName": "NAKAHIRA",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "NAKAHIRA, Satoshi"
+                },
+                {
+                    "@language": "jp",
+                    "@value": "中平 聡志"
+                }
+            ],
+            "affiliation": {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": "ISAS > Institute of Space and Astronautical Science"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0002-5352-7178",
+            "givenName": "Ken",
+            "familyName": "EBISAWA",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "EBISAWA, Ken"
+                },
+                {
+                    "@language": "jp",
+                    "@value": "海老沢 研"
+                }
+            ],
+            "affiliation": {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": "ISAS > Institute of Space and Astronautical Science"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "FITS",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/maxi/"
+        }
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1093/pasj/61.5.999/",
+            "description": "Matsuoka, M. et al. (2009) Publications of the Astronomical Society of Japan - The MAXI Mission on the ISS: Science and Instruments for Monitoring All-Sky X-Ray Images."
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1093/pasj/63.sp3.S635/",
+            "description": "Sugizaki, M. et al. (2011) Publications of the Astronomical Society of Japan - In-Orbit Performance of MAXI Gas Slit Camera (GSC) on ISS. "
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://doi.org/10.1093/pasj/62.6.1371/",
+            "description": "Tomida, H. et al. (2010) Publications of the Astronomical Society of Japan - In-Orbit Performance of the MAXI/SSC onboard the ISS."
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/maxi/publications.html",
+            "description": "MAXI Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/maxi/instruments.html",
+            "description": "MAXI Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/maxi/analysis/",
+            "description": "MAXI Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://iss.jaxa.jp/en/kiboexp/ef/maxi/",
+            "description": "MAXI page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://humans-in-space.jaxa.jp/biz-lab/experiment/ef/maxi/",
+            "description": "MAXI page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "http://maxi.riken.jp/top",
+            "description": "MAXI page by RIKEN"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.nasa.gov/mission/station/research-explorer/investigation/?#id=593",
+            "description": "MAXI page by NASA"
+        }
+    ],
+    "temporalCoverage": "2009-08-03/.."
+}

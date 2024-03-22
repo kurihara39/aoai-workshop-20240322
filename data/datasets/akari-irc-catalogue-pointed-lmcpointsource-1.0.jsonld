@@ -1,0 +1,62 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-catalogue-pointed-lmcpointsource-1.0",
+    "name": "AKARI-LMC Point Source Catalogue",
+    "description": "The photometric catalog covers about 10 square degrees of the LMC with wavelengths of N3 (3.2 micron), S7 (7.0 micron), S11 (11 micron), L15 (15.0 micron), and L24 (24.0 micron).  This consists of \"Catalog\" and \"Archive\". \"Catalogue\" includes sources that have counterparts in the version 3.1 of the SAGE-PSC (Meixner et al. 2006 AJ, 132, 2268) with a positional tolerance of 3 arcsec. \"Archive\" includes all detected sources and thus has more and fainter sources than \"Catalogue\", which may contain potential false detection or sources with larger photometric uncertainties.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-IRC_Catalogue_Pointed_LMCPointSource_1.0/",
+    "version": "Version 1",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+        "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0",
+        "version": "Version 1"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://nrid.nii.ac.jp/nrid/1000080377910/",
+            "givenName": "Daisuke",
+            "familyName": "KATO",
+            "name": "KATO, Daisuke"
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0002-8234-6747",
+            "givenName": "Takashi",
+            "familyName": "ONAKA",
+            "name": "ONAKA, Takashi"
+        }
+    ],
+    "citation": [
+        "Kato, D. et al. (2012) The Astronomical Journal - AKARI Infrared Camera Survey of the Large Magellanic Cloud. I. Point-source Catalog http://doi.org/10.1088/0004-6256/144/6/179",
+        "Ita, Y. et al. (2008) Publications of the Astronomical Society of Japan - AKARI IRC Survey of the Large Magellanic Cloud: Outline of the Survey and Initial Results http://doi.org/10.1093/pasj/60.sp2.S435"
+    ]
+}

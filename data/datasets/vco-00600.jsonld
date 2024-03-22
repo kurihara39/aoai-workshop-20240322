@@ -1,0 +1,616 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:vco-00600",
+    "name": "Venus Climate Orbiter Akatsuki Longwave Infrared Camera Bundle",
+    "description": "This PDS4 LIR bundle collects all the operational data products produced by the Venus Climate Orbiter Akatsuki Longwave Infrared Camera (LIR) instrument which includes raw image, calibrated image, derived map, derived geometry, and related documents.",
+    "url": "https://darts.isas.jaxa.jp/doi/vco/vco-00600.html",
+    "version": "Version: 1.0",
+    "keywords": [
+        "mission:AKATSUKI",
+        "mission:VCO",
+        "field:PlanetaryScience",
+        "field:PlanetaryAtmospheres",
+        "observation:Infrared",
+        "target:Planet",
+        "other:PDS"
+    ],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "isBasedOn": [
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00011",
+            "name": "Venus Climate Orbiter Akatsuki LIR Raw Data PDS3 dataset",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00011.html",
+                "https://doi.org/10.17597/isas.darts/vco-00011"
+            ],
+            "version": "Version: 1.0"
+        },
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00012",
+            "name": "Venus Climate Orbiter Akatsuki LIR Calibrated Data PDS3 dataset",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00012.html",
+                "https://doi.org/10.17597/isas.darts/vco-00012"
+            ],
+            "version": "Version: 1.0"
+        },
+        {
+            "@type": "Dataset",
+            "@id": "darts:vco-00013",
+            "name": "Venus Climate Orbiter Akatsuki LIR Geometry Information PDS3 dataset",
+            "publisher": "ISAS/JAXA",
+            "url": [
+                "https://darts.isas.jaxa.jp/doi/vco/vco-00013.html",
+                "https://doi.org/10.17597/isas.darts/vco-00013"
+            ],
+            "version": "Version: 1.0"
+        }
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-2907-2265",
+                "givenName": "Makoto",
+                "familyName": "TAGUCHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "TAGUCHI, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "田口 真"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://english.rikkyo.ac.jp/",
+                    "sameAs": "https://ror.org/00x194q47",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Rikkyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "立教大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-1060-3986",
+                "givenName": "Toru",
+                "familyName": "KOUYAMA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KOUYAMA, Toru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "神山 徹"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.aist.go.jp/index_en.html",
+                    "sameAs": "https://ror.org/01703db54",
+                    "@value": [
+                        {
+                            "@language": "en",
+                            "name": "National Institute of Advanced Industrial Science and Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "産業技術総合研究所"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7974-232X",
+                "givenName": "Tetsuya",
+                "familyName": "FUKUHARA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "FUKUHARA, Tstsuya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "福原 哲哉"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "givenName": "Masahiko",
+                "familyName": "FUTAGUCHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "FUTAGUCHI, Masahiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "二口 将彦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://global.toho-u.ac.jp/",
+                    "sameAs": "https://ror.org/02hcx7n63",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Toho University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "東邦大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7090-2689",
+                "givenName": "Takao M.",
+                "familyName": "SATO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "SATO, Takao M."
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "佐藤 隆雄"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.do-johodai.ac.jp/",
+                    "sameAs": "https://ror.org/00nyxpe17",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Hokkaido Information University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "北海道情報大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-3103-7300",
+                "givenName": "Takeru",
+                "familyName": "YAMADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "YAMADA, Takeru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山田 武尊"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://english.rikkyo.ac.jp/",
+                    "sameAs": "https://ror.org/00x194q47",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Rikkyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "立教大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-0726-6592",
+                "givenName": "Manabu",
+                "familyName": "YAMADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMADA, Manabu"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山田 学"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.it-chiba.ac.jp/",
+                    "sameAs": "https://ror.org/00qwnam72",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Chiba Institute of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "千葉工業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Atsushi",
+                "familyName": "YAMAZAKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAZAKI, Atsushi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山﨑 敦"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7666-4442",
+                "givenName": "Kazunori",
+                "familyName": "OGOHARA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OGOHARA, Kazunori"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "小郷原 一智"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kyoto-su.ac.jp/index-e.html",
+                    "sameAs": "https://ror.org/05t70xh16",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Kyoto Sangyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "京都産業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4629-6279",
+                "givenName": "Masahiro",
+                "familyName": "TAKAGI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "TAKAGI, Masahiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "高木 征弘"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kyoto-su.ac.jp/index-e.html",
+                    "sameAs": "https://ror.org/05t70xh16",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Kyoto Sangyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "京都産業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7130-6953",
+                "givenName": "Hiroki",
+                "familyName": "KASHIMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "KASHIMURA, Hiroki "
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "樫村 博基"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kobe-u.ac.jp/en/index.html",
+                    "sameAs": "https://ror.org/03tgsfw79",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Kobe University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "神戸大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-2296-1975",
+                "givenName": "Takeshi",
+                "familyName": "HORINOUSHI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "name": "Takeshi, HORINOUSHI"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "堀之内 武"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.global.hokudai.ac.jp/",
+                    "sameAs": "https://ror.org/02e16g702",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Hokkaido University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "北海道大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-9470-4492",
+                "givenName": "Takeshi",
+                "familyName": "IMAMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "IMAMURA, Takeshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "今村 剛"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7172-1911",
+                "givenName": "Yukio",
+                "familyName": "YAMAMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAMOTO, Yukio"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山本 幸生"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3821-6881",
+                "givenName": "George L.",
+                "familyName": "HASHIMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HASHIMOTO, George L."
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "はしもと じょーじ"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.okayama-u.ac.jp/index_e.html",
+                    "sameAs": "https://ror.org/02pc6pc55",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Okayama University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "岡山大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-0328-649X",
+                "givenName": "Kevin",
+                "familyName": "McGouldrick",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "McGouldrick, Kevin"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.colorado.edu/",
+                    "sameAs": "https://ror.org/02ttsq026",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "University of Colorado Boulder"
+                        },
+                        {
+                            "@language": "ja",
+                            "name": "コロラド大学ボルダー校"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00600",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "FITS",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/vco/vco_lir/"
+        }
+    ],
+    "temporalCoverage": "2010-05-21/2022-12-02",
+    "citation": [
+        "Fukuhara, T. et al. (2017), Earth, Planets and Space - Absolute calibration of brightness temperature of the Venus disk observed by the Longwave Infrared Camera onboard Akatsuki https://doi.org/10.1186/s40623-017-0727-y"
+    ]
+}

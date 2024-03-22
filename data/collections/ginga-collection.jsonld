@@ -1,0 +1,224 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:ginga-collection",
+    "name": "Ginga collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「ぎんが」（Astro-C）は、1987年2月5日に鹿児島宇宙センターからM-3SII-3ロケットによって打ち上げられた、日本のX線天文衛星です。1991年11月1日に地球大気圏に再突入し、観測期間を終了しました。「ぎんが」は、その生涯にわたり、当時知られていたすべての宇宙X線源のクラスをカバーする約350の異なるターゲットについて、1000回を超える観測を行いました。検出器とソフトウェアの開発は、日本、英国、米国の科学者による国際協力によって行われました。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "GINGA, formerly known as Astro-C, is the third Japanese X-ray astronomy satellite launched by the M-3SII-3 rocket on February 5, 1987, from Kagoshima Space Center. The observation period ended on November 1, 1991, when GINGA reentered the earth's atmosphere. During its lifetime, Ginga performed over 1000 observations of approximately 350 different targets, covering all of the then-known classes of cosmic X-ray sources. Development of the detector and software has been made via international-collaboration by Japanese, UK, and US scientists.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/ginga/",
+    "keywords": [
+        "Ginga",
+        "Astrophysics",
+        "X-ray",
+        "Gamma-ray"
+    ],
+    "hasPart": [
+        {
+            "name": "Ginga dataset",
+            "@id": "darts:ginga-data"
+        }
+      ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "jp"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "jp"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.nasa.gov/goddard/",
+                "sameAs": "https://ror.org/0171mag52",
+                "name": [
+                    {
+                        "@value": "GSFC > Goddard Space Flight Center",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "GSFC > ゴダード宇宙飛行センター",
+                        "@language": "ja"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://le.ac.uk/",
+                "sameAs": "https://ror.org/04h699437",
+                "name": [
+                    {
+                        "@value": "University of Leicester",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "レスター大学",
+                        "@language": "ja"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1987ApL....25..223M/abstract",
+            "description": "Makino, F. et al., (1987) Astrophysical Letters - The X-ray Astronomy Satellite ASTRO-C"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..345T%2Fabstract",
+            "description": "Turner, M. J. L. et al. (1989) Publications of the Astronomical Society of Japan - The large area counter on Ginga."
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..373H%2Fabstract",
+            "description": "Hayashida, K. et al. (1989) Publications of the Astronomical Society of Japan - The origin and behavior of the background in the large area counters on GINGA and its effect on the sensitivity"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..391T%2Fabstract",
+            "description": "Tsunemi, H. et al. (1989) Publications of the Astronomical Society of Japan - All sky monitor on board the GINGA satellite and its performance."
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1989PASJ...41..405M%2Fabstract",
+            "description": "Murakami, T. et al. (1989) Publications of the Astronomical Society of Japan - The gamma-ray burst detector system on board Ginga."
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/ginga/operations/index.html",
+            "description": "Ginga Operation Daily Reports"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=ginga",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/ginga/publications.html",
+            "description": "Ginga Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/ginga/instruments.html",
+            "description": "Ginga Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/ginga/analysis/",
+            "description": "Ginga Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "https://www.astro.isas.jaxa.jp/ginga/index.html",
+            "description": "「ぎんが」衛星 - Ginga project page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/ginga.html",
+            "description": "Ginga page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/ginga/ginga.html",
+            "description": "Ginga page by NASA/GSFC HEASARC"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.ledas.ac.uk/",
+            "description": "The Leicester Database & Archive Service (LEDAS)"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/W3Browse/ginga/gingalog.html",
+            "description": "Explanation of GINGALOG at HEASARC"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/W3Browse/ginga/gingamode.html",
+            "description": "Explanation of GINGAMODE at HEASARC"
+        }
+     ],
+     "temporalCoverage":"1987-03-09/1991-10-10"
+}

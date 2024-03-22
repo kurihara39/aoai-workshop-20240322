@@ -1,0 +1,158 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:asca-collection",
+    "name": "ASCA collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「あすか」は、1993年2月20日に打ち上げられた日本で4番目のX線天文衛星である(Tanaka et al. 1994)。X線望遠鏡、X線CCDカメラ、ソフトウェアの開発において、日米の科学者の共同研究が行われた。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "ASCA (Advanced Satellite for Cosmology and Astrophysics) is the fourth Japanese X-ray astronomy satellite launched on February 20, 1993 (Tanaka et al. 1994). The collaboration between Japanese and US scientists has been carried out in the developments of the X-ray telescopes, the X-ray CCD cameras, and software.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/asca/",
+    "keywords": [
+        "ASCA",
+        "Astrophysics",
+        "X-ray"
+    ],
+    "hasPart": [
+      {
+          "name": "ASCA dataset",
+          "@id": "darts:asca-data"
+      }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "jp"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "jp"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "MissionPaper",
+            "inLanguage": "en",
+            "url": "https://ui.adsabs.harvard.edu/abs/1994PASJ...46L..37T/abstract",
+            "description": "Tanaka, Y. et al., (1994) Publications of the Astronomical Society of Japan - The X-Ray Astronomy Satellite ASCA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/asca/operations.html",
+            "description": "ASCA Operation Daily Reports"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/asca/data/public_list.html",
+            "description": "ASCA Public Data List"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=asca",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+            "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/asca/publications.html",
+            "description": "ASCA Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/asca/instruments.html",
+            "description": "ASCA Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/asca/analysis.html",
+            "description": "ASCA Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "ja",
+            "url": "http://www.astro.isas.jaxa.jp/asca/",
+            "description": "「あすか」のページ - ASCA project page by ISAS"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/asca.html",
+            "description": "ASCA page by ISAS"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/asca/ascagof.html",
+            "description": "ASCA Guest Observer Facility at NASA/GSFC"
+        }
+    ],
+    "temporalCoverage":"1993-04-05/2000-07-15"
+}

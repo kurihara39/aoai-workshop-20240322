@@ -1,0 +1,334 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:vco-00015",
+    "name": "Venus Climate Orbiter Akatsuki RS Bending Angle and Temperature/Pressure Profiles PDS3 dataset",
+    "description": "This dataset contains products acquired by radio science experiment using Ultra-Stable Oscillator (USO) onboard the Venus Climate Orbiter (VCO, also known as PLANET-C and AKATSUKI) spacecraft. This dataset conforms PDS3 Standard. This dataset uses the Committee on Data Management and Computation (CODMAC) data level numbering system. The RS OCCs bending angle and temperature/pressure profiles are considered Level 5 or Derived Data. Bending angle profiles are derived from Level 3, and temperature/pressure profiles are derived from temperature/pressure profiles. In the VCO RS numbering system, bending angle profiles are Level 3, and temperature/pressure profiles are Level 4. The data files are provided in table format. The associated metadata are stored in the PDS labels.",
+    "url": "https://darts.isas.jaxa.jp/doi/vco/vco-00015.html",
+    "version": "Version: 1.0",
+    "keywords": [
+        "mission:AKATSUKI",
+        "mission:VCO",
+        "field:PlanetaryScience",
+        "field:PlanetaryAtmospheres",
+        "observation:Radio",
+        "target:Planet",
+        "other:PDS"
+    ],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:vco-00014",
+        "name": "Venus Climate Orbiter Akatsuki RS Doppler Profiles PDS3 dataset",
+        "publisher": "ISAS/JAXA",
+        "url": [
+            "https://darts.isas.jaxa.jp/doi/vco/vco-00014.html",
+            "https://doi.org/10.17597/isas.darts/vco-00014"
+        ],
+        "version": "Version: 1.0"
+    },
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-5088-6186",
+                "givenName": "Hiroki",
+                "familyName": "ANDO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ANDO, Hiroki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "安藤 紘基"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.kyoto-su.ac.jp/index-e.html",
+                    "sameAs": "https://ror.org/05t70xh16",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Kyoto Sangyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "京都産業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-9470-4492",
+                "givenName": "Takeshi",
+                "familyName": "IMAMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "IMAMURA, Takeshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "今村 剛"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-1548-1161",
+                "givenName": "Armin",
+                "familyName": "Kleinböhl",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Kleinböhl, Armin"
+                    }
+                ],
+                "affiliation": [
+                    {
+                        "@type": "Organization",
+                        "url": "https://www.jpl.nasa.gov/",
+                        "sameAs": "https://ror.org/027k65916",
+                        "name": [
+                            {
+                                "@language": "en",
+                                "@value": "Jet Propulsion Laboratory"
+                            },
+                            {
+                                "@language": "ja",
+                                "@value": "ジェット推進研究所"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "Organization",
+                        "url": "https://www.caltech.edu/",
+                        "sameAs": "https://ror.org/05dxps055",
+                        "name": [
+                            {
+                                "@language": "en",
+                                "@value": "California Institute of Technology"
+                            },
+                            {
+                                "@language": "ja",
+                                "@value": "カリフォルニア工科大学"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "givenName": "Shigeru",
+                "familyName": "SUZUKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SUZUKI, Shigeru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "鈴木 繁"
+                    }
+                ],
+                "affiliation": [
+                    {
+                        "@type": "Organization",
+                        "url": "https://www.jpl.nasa.gov/",
+                        "sameAs": "https://ror.org/027k65916",
+                        "name": [
+                            {
+                                "@language": "en",
+                                "@value": "Jet Propulsion Laboratory"
+                            },
+                            {
+                                "@language": "ja",
+                                "@value": "ジェット推進研究所"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "Organization",
+                        "url": "https://www.caltech.edu/",
+                        "sameAs": "https://ror.org/05dxps055",
+                        "name": [
+                            {
+                                "@language": "en",
+                                "@value": "California Institute of Technology"
+                            },
+                            {
+                                "@language": "ja",
+                                "@value": "カリフォルニア工科大学"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7172-1911",
+                "givenName": "Yukio",
+                "familyName": "YAMAMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAMOTO, Yukio"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山本 幸生"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3821-6881",
+                "givenName": "George L.",
+                "familyName": "HASHIMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HASHIMOTO, George L."
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "はしもと じょーじ"
+                   }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.okayama-u.ac.jp/index_e.html",
+                    "sameAs": "https://ror.org/02pc6pc55",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Okayama University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "岡山大学"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00015",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "Text",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds3/vco-v-rs-5-occ-v1.0/"
+        }
+    ],
+    "temporalCoverage": "2016-03-03/2022-12-13",
+    "citation": [
+        "Imamura, T. et al. (2017), Earth, Planets and Space - Initial performance of the radio occultation experiment in the Venus orbiter mission Akatsuki https://doi.org/10.1186/s40623-017-0722-3",
+        "Ando, H. et al. (2018), JGR Planets - Local Time Dependence of the Thermal Structure in the Venusian Equatorial Upper Atmosphere: Comparison of Akatsuki Radio Occultation Measurements and GCM Results https://doi.org/10.1029/2018JE005640",
+        "Imamura, T. et al. (2018), JGR Planets - Fine Vertical Structures at the Cloud Heights of Venus Revealed by Radio Holographic Analysis of Venus Express and Akatsuki Radio Occultation Data https://doi.org/10.1029/2018JE005627"
+    ]
+}

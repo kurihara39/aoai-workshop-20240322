@@ -1,0 +1,66 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-fis-catalogue-allsky-brightsource-1.0",
+    "name": "AKARI FIS Bright Source Catalogue Public Version 1",
+    "description": "The point source catalogues from Far-Infrared Surveyor (FIS) on board AKARI.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-FIS_Catalogue_AllSky_BrightSource_1.0/",
+    "version": "Version 1",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+        "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0",
+        "version": "Version 1"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.esa.int/",
+            "sameAs": "https://ror.org/03wd9za21",
+            "name": "ESA > European Space Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.open.ac.uk/",
+            "sameAs": "https://ror.org/05mzfcs16",
+            "name": "The Open University"
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901077188018891",
+            "givenName": "Issei",
+            "familyName": "YAMAMURA",
+            "name": "YAMAMURA, Issei"
+        }
+    ],
+    "citation": [
+        "Yamamura, I. et al. (2010) - AKARI/FIS All-Sky Survey Bright Source Catalogue Version 1.0 Release Note. https://data.darts.isas.jaxa.jp/pub/akari/AKARI-FIS_Catalogue_AllSky_BrightSource_1.0/AKARI-FIS_BSC_V1_RN.pdf"
+    ]
+}

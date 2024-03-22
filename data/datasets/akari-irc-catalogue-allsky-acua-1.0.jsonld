@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-catalogue-allsky-acua-1.0",
+    "name": "Asteroid catalog Using AKARI (AcuA)",
+    "description": "The Asteroid catalog using AKARI (AcuA) is the first asteroid catalog produced based on the AKARI/IRC Mid-Infrared Survey. The catalog provides the size and albedo of 5120 asteroids.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-IRC_Catalogue_AllSky_AcuA_1.0/",
+    "version": "Version 1.0",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared",
+        "Asteroid"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+        "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0003-2273-0103",
+            "givenName": "Fumihiko",
+            "familyName": "USUI",
+            "name": "USUI, Fumihiko"
+        }
+    ],
+    "citation": [
+        "Usui, F. et al. (2011) Publications of the Astronomical Society of Japan - Asteroid Catalog Using AKARI: AKARI/IRC Mid-Infrared Asteroid Survey https://doi.org/10.1093/pasj/63.5.1117"
+    ]
+}

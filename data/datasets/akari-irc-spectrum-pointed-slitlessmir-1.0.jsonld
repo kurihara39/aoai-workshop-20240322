@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-spectrum-pointed-slitlessmir-1.0",
+    "name": "AKARI/IRC MIR-S slit-less spectroscopic catalogue",
+    "description": "A catalogue of mid-infrared slit-less spectra (5.5-12.5 µm) extracted from the AKARI/IRC MIR-S spectroscopic observation data. All 886 MIR-S spectroscopic data obtained in Phases 1&2 are analyzed, and 862 spectra of 604 individual sources that are little contaminated by nearby sources are catalogued. We also present a 9 µm point source catalogue generated as a by-product. The point source catalogue contains 42,387 sources brighter than 0.3 mJy.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-IRC_Spectrum_Pointed_SlitlessMIR_1.0/",
+    "version": "version 1.0",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+        "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0",
+        "version": "Version 1"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://nrid.nii.ac.jp/ja/nrid/1000030735676/",
+            "givenName": "Mitsuyoshi",
+            "familyName": "YAMAGISHI",
+            "name": "YAMAGISHI, Mitsuyoshi"
+        }
+    ],
+    "citation": [
+        "Yamagishi, M. et al. (2018) Publications of the Astronomical Society of Japan - AKARI mid-infrared slit-less spectroscopic catalogue https://doi.org/10.1093/pasj/psy132"
+    ]
+}

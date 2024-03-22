@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-image-pointed-poiphase3-x.x",
+    "name": "AKARI/IRC Pointed Observation Images in Post-Helium (Phase 3) Mission",
+    "description": "The processed Near-IR images from Infrared Camera (IRC) on board AKARI taken in Phase 3. Individual observation data were processed separately.",
+    "url": "",
+    "version": "version x.x",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2008-06-01/2010-05-14",
+    "isBasedOn": {
+        "@type": "CreativeWork",
+        "@id": "darts:akari-irc-pointed-rawdatapack-2.0",
+        "name": "AKARI Pointed Observation Raw Data Version 2 (Phase 3)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_2.0",
+        "version": "Version 2"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ]
+}

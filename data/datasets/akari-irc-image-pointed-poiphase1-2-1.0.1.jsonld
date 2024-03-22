@@ -1,0 +1,55 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-image-pointed-poiphase1-2-1.0.1",
+    "name": "AKARI/IRC Pointed Observation Images (Phase 1&2)",
+    "description": "The processed images from Infrared Camera (IRC) on board AKARI during Phase 1&2 pointed observations. The field of view of IRC is 10 arcmin and the PSF size is ~5 arcseconds in FWHM. The 9 photometric filters continuously cover the wavelength range from ~2 to ~26 micrometers.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-IRC_Image_Pointed_POIphase1-2_1.0.1/",
+    "version": "version 1.0.1",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+        "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0",
+        "version": "Version 1"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0002-1639-1515",
+            "givenName": "Fumi",
+            "familyName": "EGUSA",
+            "name": "EGUSA, Fumi"
+        }
+    ],
+    "citation": [
+        "Egusa, F. et al. (2016) - AKARI IRC Data User Manual Version 2.2 https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_DUM.pdf",
+        "Egusa, F. et al. (2016) Publications of the Astronomical Society of Japan - Revised calibration for near- and mid-infrared images from ~4000 pointed observations with AKARI/IRC https://doi.org/10.1093/pasj/psv135"
+    ]
+}

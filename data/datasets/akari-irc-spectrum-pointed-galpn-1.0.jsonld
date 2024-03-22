@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-irc-spectrum-pointed-galpn-1.0",
+    "name": "AKARI/IRC NIR Spectral Atlas of Galactic Planetary Nebulae",
+    "description": "This catalogue is produced and provided by a user group (Ohsawa et al., 2016) as a part of their research project. It is the user group who will take responsibility of the contents of the catalogue.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-IRC_Spectrum_Pointed_GALPN_1.0/",
+    "version": "version 1.0",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2008-06-01/2010-05-14",
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:akari-irc-pointed-rawdatapack-2.0",
+        "name": "AKARI Pointed Observation Raw Data Version 2 (Phase 3)",
+        "publisher": "ISAS/JAXA",
+        "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_2.0",
+        "version": "Version 2"
+    },
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Person",
+            "sameAs": "https://orcid.org/0000-0001-5797-6010",
+            "givenName": "Ryou",
+            "familyName": "OHSAWA",
+            "name": "OHSAWA, Ryou"
+        }
+    ],
+    "citation": [
+        "Ohsawa, R. et al. (2016) The Astrophysical Journal - AKARI/IRC NEAR-INFRARED SPECTRAL ATLAS OF GALACTIC PLANETARY NEBULAE https://doi.org/10.3847/0004-6256/151/4/93"
+    ]
+}

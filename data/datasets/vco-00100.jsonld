@@ -1,0 +1,111 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:vco-00100",
+    "name": "Venus Climate Orbiter Akatsuki Mission Bundle",
+    "description": "This PDS4 bundle collects all the mission wide information needed to use and understand the scientific data products produced by Venus Climate Orbiter Akatsuki mission.",
+    "url": "https://darts.isas.jaxa.jp/doi/vco/vco-00100.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:AKATSUKI", "mission:VCO", "field:PlanetaryScience", "field:PlanetaryAtmospheres", "target:Venus", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-1567-1985",
+                "givenName": "Masato",
+                "familyName": "NAKAMURA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "NAKAMURA, Masato"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "中村 正人"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Makoto",
+                "familyName": "SUZUKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SUZUKI, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "鈴木 睦"
+                    }
+                ]
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00100",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/vco/vco/"
+        }
+    ],
+    "temporalCoverage": "2010-05-20/.."
+}

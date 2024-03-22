@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:sakig-c-sow-3-rdr-halley-v1.0",
+    "name": "SAKIGAKE SOLAR WIND EXPERIMENT DATA V1.0",
+    "description": "The original dataset was called MST5SOW.  It was personally delivered by Dr. Oyama. The sample hardcopy listed the column headings with units for the solar wind parameters bulk ion velocity, ion density, and ion temperature. The data format of the tape was included. The recorded jumps in the measured parameters indicate a disturbance at encounter.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/pds3/sakig-c-sow-3-rdr-halley-v1.0/",
+    "version": "1.0",
+    "keywords": [
+        "mission:SAKIGAKE",
+        "field:PlanetaryScience",
+        "target:Comet",
+        "target:1P/Halley",
+        "other:PDS"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "temporalCoverage": "1986-03-10/1986-03-13"
+}

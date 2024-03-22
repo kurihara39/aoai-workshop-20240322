@@ -1,0 +1,268 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:vco-00006",
+    "name": "Venus Climate Orbiter Akatsuki IR1 Calibrated Data PDS3 dataset",
+    "description": "This dataset contains products acquired by the IR1 instrument of the Venus Climate Orbiter (VCO, also known as PLANET-C and AKATSUKI) spacecraft. This dataset conforms PDS3 Standard. This dataset uses the Committee on Data Management and Computation (CODMAC) data level numbering system. The IR1 CDRs are considered Level 3 or Composite Data (equivalent to NASA Level 1B). The CDRs are reconstructed from Level 2 or Edited Data. This dataset consists entirely of FITS files. Calibrated images in units of radiance are included. The headers of the FITS files are included as part of the dataset, and much of the FITS header information is reproduced in the PDS labels.",
+    "url": "https://darts.isas.jaxa.jp/doi/vco/vco-00006.html",
+    "version": "Version: 1.0",
+    "keywords": [
+        "mission:AKATSUKI",
+        "mission:VCO",
+        "field:PlanetaryScience",
+        "field:PlanetaryAtmospheres",
+        "observation:Infrared",
+        "target:Planet",
+        "other:PDS"
+    ],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "isBasedOn": {
+        "@type": "Dataset",
+        "@id": "darts:vco-00005",
+        "name": "Venus Climate Orbiter Akatsuki IR1 Raw Data PDS3 dataset",
+        "publisher": "ISAS/JAXA",
+        "url": [
+            "https://darts.isas.jaxa.jp/doi/vco/vco-00005.html",
+            "https://doi.org/10.17597/isas.darts/vco-00005"
+        ],
+        "version": "Version: 1.0"
+    },
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Shoko",
+                "familyName": "OHTSUKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OHTSUKI, Shoko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "大月 祥子"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.senshu-u.ac.jp/english/",
+                    "sameAs": "https://ror.org/03jzxkg37",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Senshu University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "専修大学"
+                        }
+                    ]
+                }
+            },            
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-9084-2858",
+                "givenName": "Shingo",
+                "familyName": "KAMEDA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "KAMEDA, Shingo"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "亀田 真吾"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://english.rikkyo.ac.jp/",
+                    "sameAs": "https://ror.org/00x194q47",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Rikkyo University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "立教大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-0328-649X",
+                "givenName": "Kevin",
+                "familyName": "McGouldrick",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "McGouldrick, Kevin"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.colorado.edu/",
+                    "sameAs": "https://ror.org/02ttsq026",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "University of Colorado Boulder"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "コロラド大学ボルダー校"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-7172-1911",
+                "givenName": "Yukio",
+                "familyName": "YAMAMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAMOTO, Yukio"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山本 幸生"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3821-6881",
+                "givenName": "George L.",
+                "familyName": "HASHIMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "HASHIMOTO, George L."
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "はしもと じょーじ"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.okayama-u.ac.jp/index_e.html",
+                    "sameAs": "https://ror.org/02pc6pc55",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Okayama University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "岡山大学"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00006",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "FITS",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds3/vco-v-ir1-3-cdr-v1.0/"
+        }
+    ],
+    "temporalCoverage": "2010-05-21/2016-12-09",
+    "citation": [
+        "Iwagami, N. et al. (2011), Earth, Planets and Space - Science requirements and description of the 1 μm camera onboard the Akatsuki Venus Orbiter https://doi.org/10.5047/eps.2011.03.007",
+        "Iwagami, N. et al. (2018), Earth, Planets and Space - Initial products of Akatsuki 1-μm camera https://doi.org/10.1186/s40623-017-0773-5"
+    ]
+}

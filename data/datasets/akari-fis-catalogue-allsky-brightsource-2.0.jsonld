@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akari-fis-catalogue-allsky-brightsource-2.0",
+    "name": "AKARI FIS Bright Source Catalogue Public Version 2",
+    "description": "Revised version of the FIS Bright Source Catalogue released in 2010. Improved detection completeness and reliability, position and flux accuracy.",
+    "url": "",
+    "version": "Version 2",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2006-05-08/2007-08-26",
+    "isBasedOn": [
+        {
+            "@type": "Dataset",
+            "@id": "darts:akari-fis-irc-pointed-rawdatapack-1.0",
+            "name": "AKARI Pointed Observation Raw Data Version 1 (Phase 1&2)",
+            "publisher": "ISAS/JAXA",
+            "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_1.0",
+            "version": "Version 1"
+        },
+        {
+            "@type": "Dataset",
+            "@id": "darts:akari-fis-catalogue-allsky-brightsource-1.0",
+            "name": "AKARI FIS Bright Source Catalogue Public Version 1",
+            "description": "The point source catalogues from Far-Infrared Surveyor (FIS) on board AKARI.",
+            "url": "https://data.darts.isas.jaxa.jp/pub/akari/AKARI-FIS_Catalogue_AllSky_BrightSource_1.0/",
+            "version": "Version 1"
+        }
+    ],
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ]
+}

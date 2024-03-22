@@ -1,0 +1,39 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hay-a-onc-2-edr-1.0",
+    "name": "HAYABUSA ONC EDR V1.0",
+    "description": "The Asteroid Multi-band Imaging Camera (AMICA) of the Hayabusa mission to the asteroid 25143 Itokawa obtained 1662 images from May 11, 2003, shortly after launch, until November 19, 2005, after Itokawa encounter.  This data set includes all images from the mission, plus pre-flight flat field images.",
+    "url": "https://data.darts.isas.jaxa.jp/pub/pds3/hay-a-onc-2-edr-1.0/",
+    "version": "1.0",
+    "keywords": [
+        "mission:HAYABUSA",
+        "field:PlanetaryScience",
+        "observation:Optical",
+        "target:Asteroid",
+        "target:25143 Itokawa",
+        "other:PDS"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "temporalCoverage": "2003-05-14/2010-06-13"
+}

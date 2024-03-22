@@ -1,0 +1,189 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00103",
+    "name": "Hayabusa2 Mission Bundle: XML Schema Collection",
+    "description": "This PDS4 collection contains the XML Schema prodcuts applicable to the Hayabusa2 mission as a whole; includes the mission dictionary.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-00103.html",
+    "version": "Version: 3.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-5820-2102",
+                "givenName": "Sei-ichiro",
+                "familyName": "WATANABE",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "WATANABE, Sei-ichiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": " 渡邊 誠一郎"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://en.nagoya-u.ac.jp/",
+                    "sameAs": "https://ror.org/04chrp450",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Nagoya University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "名古屋大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3118-7475",
+                "givenName": "Makoto",
+                "familyName": "YOSHIKAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YOSHIKAWA, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "吉川 真"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-9161-6171",
+                "givenName": "Yuichi",
+                "familyName": "TSUDA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "TSUDA, Yuichi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "津田 雄一"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4874-0417",
+                "givenName": "Satoshi",
+                "familyName": "TANAKA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "TANAKA, Satoshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "田中 智"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00103",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2/xml_schema/"
+        }
+    ],
+    "temporalCoverage": "../.."
+}

@@ -1,0 +1,159 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hitomi-collection",
+    "name": "Hitomi collection",
+    "description": [
+        {
+            "@type": "HTML",
+            "@value": "「ひとみ」 (ASTRO-H) は、2016 年 2 月 17 日に打ち上げられた 6 番目の X 線天文衛星です。 「ひとみ」は、JAXAが主導し、日本、米国（NASA/GSFC、スタンフォード大学）、カナダ（CSA）、欧州（ESA、SRON、CEA/DSM/IRFU、ジュネーブ大学）の70を超える機関が協力した大規模な国際共同研究によって構築されました。JAXAは2016年3月26日に衛星との交信が途絶え、4月28日に復旧作業を中止した。",
+            "@language": "jp"
+        },
+        {
+            "@type": "HTML",
+            "@value": "Hitomi (ASTRO-H) is the sixth X-ray astronomy satellite launched on February 17, 2016. Hitomi was built by a major international collaboration led by JAXA with over 70 contributing institutions in Japan, the US (NASA/GSFC, Stanford University), Canada (CSA), and Europe (ESA, SRON, CEA/DSM/IRFU, Universite de Geneve). On March 26, 2016, JAXA lost contact with the satellite and on April 28 ceased the efforts to restore the operations.",
+            "@language": "en"
+        }
+    ],
+    "url": "https://darts.isas.jaxa.jp/astro/hitomi/",
+    "keywords": [
+        "Hitomi",
+        "Astrophysics",
+        "X-ray"
+    ],
+    "hasPart": [
+      {
+          "name": "Hitomi dataset",
+          "@id": "darts:hitomi-data"
+      }
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "creator": {
+        "@list" : [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@value": "JAXA > Japan Aerospace Exploration Agency",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "JAXA > 宇宙航空研究開発機構",
+                        "@language": "ja"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@value": "ISAS > Institute of Space and Astronautical Science",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "ISAS > 宇宙科学研究所",
+                        "@language": "ja"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.nasa.gov/goddard/",
+                "sameAs": "https://ror.org/0171mag52",
+                "name": [
+                    {
+                        "@value": "GSFC > Goddard Space Flight Center",
+                        "@language": "en"
+                    },
+                    {
+                        "@value": "GSFC > ゴダード宇宙飛行センター",
+                        "@language": "ja"
+                    }
+                ]
+            }
+        ]
+    },
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "keywords": "ObservationList",
+            "inLanguage": "en",
+            "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/hitomi/public_list.html",
+            "description": "Hitomi Public Data List"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/query/basic.php?satelites=hitomi",
+            "description": "DARTS/Astro Query System"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://app.darts.isas.jaxa.jp/judo2/",
+            "description": "JUDO2 - JAXA Universe Data Oriented Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "WebApplication",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/udon2/about.html.en",
+            "description": "UDON2 - Universe via Darts ON-line Version 2"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "PublicationList",
+            "inLanguage": "en",
+            "url": "https://data.darts.isas.jaxa.jp/pub/Astro_Browse/publications/hitomi/papers.html",
+            "description": "Hitomi Publications"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "InstrumentDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/hitomi/instruments.html",
+            "description": "Hitomi Instruments"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "AnalysisDescription",
+            "inLanguage": "en",
+            "url": "https://darts.isas.jaxa.jp/astro/hitomi/analysis.html",
+            "description": "Hitomi Analysis"            
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/hitomi.html",
+            "description": "Hitomi page by ISAS/JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "http://global.jaxa.jp/projects/sas/astro_h/index.html",
+            "description": "Hitomi page by JAXA"
+        },
+        {
+            "@type": "CreativeWork",
+            "keywords": "MiscellaneousLink",
+            "inLanguage": "en",
+            "url": "https://heasarc.gsfc.nasa.gov/docs/hitomi/",
+            "description": "Hitomi page by NASA/GSFC HEASARC"
+        }
+    ],
+    "temporalCoverage":"2016-02-24/2016-03-22"
+}

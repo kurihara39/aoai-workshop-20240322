@@ -1,0 +1,74 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Observation",
+    "@id": "darts:akari-irc-pointed-rawdatapack-2.0",
+    "name": "AKARI Pointed Observation Raw Data Version 2 (Phase 3)",
+    "description": "AKARI has made about 18,000 pointed observations in 2006-2011. The data are open to public for scientific research. Version2 is raw IRC/NIR pointed observation data (imaging and spectroscopy) during the post-Helium phase (Phase 3).",
+    "url": "https://darts.isas.jaxa.jp/pub/akari/AKARI__Pointed_RawDataPack_2.0",
+    "version": "Version 2 (Phase 3)",
+    "keywords": [
+        "AKARI",
+        "Astrophysics",
+        "Infrared"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "isAccessibleForFree": "true",
+    "temporalCoverage": "2008-06-01/2010-05-14",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.esa.int/",
+            "sameAs": "https://ror.org/03wd9za21",
+            "name": "ESA > European Space Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.open.ac.uk/",
+            "sameAs": "https://ror.org/05mzfcs16",
+            "name": "The Open University"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.snu.ac.kr/",
+            "sameAs": "https://ror.org/04h9pn542",
+            "name": "Seoul National University"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.u-tokyo.ac.jp/ja/",
+            "sameAs": "https://ror.org/057zh3y96",
+            "name": "The University of Tokyo"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://en.nagoya-u.ac.jp/",
+            "sameAs": "https://ror.org/04chrp450",
+            "name": "Nagoya University"
+        }
+    ],
+    "citation": [
+        "Murakami, H. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Astronomical Mission AKARI http://doi.org/10.1093/pasj/59.sp2.S369",
+        "Kaneda, H. et al. (2007) Publications of the Astronomical Society of Japan - In-orbit focal adjustment of the AKARI telescope with IRC images http://doi.org/10.1093/pasj/59.sp2.S423",
+        "Nakagawa, T. et al. (2007) Publications of the Astronomical Society of Japan - Flight Performance of the AKARI Cryogenic System http://doi.org/10.1093/pasj/59.sp2.S377",
+        "Onaka, T. et al. (2007) Publications of the Astronomical Society of Japan - The Infrared Camera (IRC) for AKARI -- Design and Imaging Performance http://doi.org/10.1093/pasj/59.sp2.S401",
+        "Egusa, F. et al. (2016) - AKARI IRC Data User Manual Version 2.2 https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_DUM.pdf",
+        "Onaka, T. et al. (2009) - AKARI IRC Data User Manual for Phase 3 Version 1.1 [https://www.ir.isas.jaxa.jp/AKARI/Observation/support/IRC/IDUM/IRC_IDUM_P3_1.1.pdf"
+    ]
+}

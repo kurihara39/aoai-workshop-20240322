@@ -1,0 +1,406 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00500",
+    "name": "Hayabusa2 Laser Altimeter (LIDAR) Bundle",
+    "description": "This PDS4 bundle collects all the operational data products produced by the Hayabusa2 LIDAR instrument.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-00500.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "observation:Optical", "observation:Altitude", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-5374-372X",
+                "givenName": "Noriyuki",
+                "familyName": "NAMIKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "NAMIKI, Noriyuki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "竝木 則行"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0717-0972",
+                "givenName": "Hirotomo",
+                "familyName": "NODA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "NODA, Hirotomo"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "野田 寛大"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-8381-666X",
+                "givenName": "Hiroki",
+                "familyName": "SENSHU",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SENSHU, Hiroki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "千秋 博紀"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.it-chiba.ac.jp/",
+                    "sameAs": "https://ror.org/00qwnam72",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "Chiba Institute of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "千葉工業大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-4319-1970",
+                "givenName": "Koji",
+                "familyName": "MATSUMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MATSUMOTO, Koji"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "松本 晃治"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-2494-5319",
+                "givenName": "Takahide",
+                "familyName": "MIZUNO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MIZUNO, Takahide"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "水野 貴秀"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0375-6300",
+                "givenName": "Yoshiaki",
+                "familyName": "ISHIHARA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISHIHARA, Yoshiaki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "石原 吉明"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": " https://orcid.org/0000-0002-9572-716X",
+                "givenName": "Keiko",
+                "familyName": "YAMAMOTO",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMAMOTO, Keiko"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山本 圭香"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Makoto",
+                "familyName": "SHIZUGAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SHIZUGAMI, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "清水上 誠"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ryuhei",
+                "familyName": "YAMADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YAMADA, Ryuhei"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "山田 竜平"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://u-aizu.ac.jp/en/",
+                    "sameAs": "https://ror.org/02pg0e883",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Aizu"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "会津大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Hiroshi",
+                "familyName": "ARAKI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ARAKI, Hiroshi"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "荒木 博志"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.nao.ac.jp/en/",
+                    "sameAs": "https://ror.org/052rrw050",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "National Astronomical Observatory of Japan"
+                        },
+                        {
+                            "@language": "ja",
+                        "@value": "国立天文台"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7137-4849",
+                "givenName": "Shin-ya",
+                "familyName": "MURAKAMI",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "MURAKAMI, Shin-ya"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "村上 真也"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "name": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00500",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": ["FITS","XML","CSV","要確認"],
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2_lidar/"
+        }
+    ],
+    "temporalCoverage": [
+        "2015-12-11/2015-12-19",
+        "2018-06-30/2019-11-14"
+    ]
+}

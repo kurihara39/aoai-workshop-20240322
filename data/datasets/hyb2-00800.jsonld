@@ -1,0 +1,911 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:hyb2-00800",
+    "name": "Hayabusa2 MASCOT Camera Bundle",
+    "description": "This PDS4 bundle collects all the operational data products produced by the Hayabusa2 MASCOT Camera, MASCAM.",
+    "url": "https://darts.isas.jaxa.jp/doi/hyb2/hyb2-01000.html",
+    "version": "Version: 1.0",
+    "keywords": ["mission:HAYABUSA2", "field:PlanetaryScience", "observation:Optical", "target:Asteroid", "target:(162173) Ryugu", "other:PDS"],
+    "license": [
+        "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+        "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f7fde41d-ffca-4b2a-9b25-94b8a701a037/b33c8db5/20220706_resources_data_betten_03.pdf",
+        "https://creativecommons.org/licenses/by/4.0/deed.en"
+    ],
+    "creator": {
+        "@list": [
+            {
+                "@type": "Organization",
+                "url": "https://www.jaxa.jp/",
+                "sameAs": "https://ror.org/059yhyy33",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "JAXA > Japan Aerospace Exploration Agency"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙航空研究開発機構"
+                    }
+                                  
+                ]
+            },
+            {
+                "@type": "Organization",
+                "url": "https://www.isas.jaxa.jp/",
+                "sameAs": "https://ror.org/034gcgw60",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "ISAS > Institute of Space and Astronautical Science"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "宇宙科学研究所"
+                    }
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "DARTS help desk",
+                    "email": "darts-admin@ML.isas.jaxa.jp"
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-9759-6597",
+                "givenName": "Ralf",
+                "familyName": "Jaumann",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Jaumann, Ralf"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6481-6189",
+                "givenName": "Nicole",
+                "familyName": "Schmitz",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Schmitz, Nicole"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-8231-1109",
+                "givenName": "Alexander",
+                "familyName": "Koncz",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Koncz, Alexander"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Harald",
+                "familyName": "Michaelis",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Michaelis, Harald"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-0323-8324",
+                "givenName": "Stefan",
+                "familyName": "Schroeder",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Schroeder, Stefan"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.ltu.se/",
+                    "sameAs": "https://ror.org/016st3p78",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Luleå University of Technology"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ルレオ工科大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0457-3872",
+                "givenName": "Stefano",
+                "familyName": "Mottola",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Mottola, Stefano"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-0457-3872",
+                "givenName": "Stefano",
+                "familyName": "Mottola",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Mottola, Stefano"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Frank",
+                "familyName": "Trauthan",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Trauthan, Frank"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Harald",
+                "familyName": "Hoffmann",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Hoffmann, Harald"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Thomas",
+                "familyName": "Roatsch",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Roatsch, Thomas"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Dietmar",
+                "familyName": "Jobs",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Jobs, Dietmar"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Juergen",
+                "familyName": "Kachlicki",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Kachlicki, Juergen"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Bernd",
+                "familyName": "Pforte",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Pforte, Bernd"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Rony",
+                "familyName": "Terzer",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Terzer, Rony"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Matthias",
+                "familyName": "Tschentscher",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Tschentscher, Matthias"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Stefan",
+                "familyName": "Weisse",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Weisse, Stefan"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Uwe",
+                "familyName": "Müller",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Müller, Uwe"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "L.",
+                "familyName": "Perez-Prieto",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Perez-Prieto, L."
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.airbus.com/en",
+                    "sameAs": "https://ror.org/04a3akw68",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Airbus Defence and Space"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "エアバス・ディフェンス・アンド・スペース"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "B.",
+                "familyName": "Broll",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Broll, B."
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.airbus.com/en",
+                    "sameAs": "https://ror.org/04a3akw68",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Airbus Defence and Space"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "エアバス・ディフェンス・アンド・スペース"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Andreas",
+                "familyName": "Kruselburger",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Kruselburger, Andreas"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.airbus.com/en",
+                    "sameAs": "https://ror.org/04a3akw68",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Airbus Defence and Space"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "エアバス・ディフェンス・アンド・スペース"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0003-3378-3227",
+                "givenName": "Tra-Mi",
+                "familyName": "Ho",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Ho, Tra-Mi"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-7414-829X",
+                "givenName": "Jens",
+                "familyName": "Biele",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Biele, Jens"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-8856-4622",
+                "givenName": "Stephan",
+                "familyName": "Ulamec",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Ulamec, Stephan"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Christian",
+                "familyName": "Krause",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Krause, Christian"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-8613-7096",
+                "givenName": "Matthias",
+                "familyName": "Grott",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Grott, Matthias"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.dlr.de/en/",
+                    "sameAs": "https://ror.org/04bwf3e34",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "German Aerospace Center (DLR)"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "ドイツ航空宇宙センター"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Jean-Pierre",
+                "familyName": "Bibring",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "Bibring, Jean-Pierre"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.universite-paris-saclay.fr/en",
+                    "sameAs": "https://ror.org/03xjwb503",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "University of Paris - XI"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "パリ第11大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-5820-2102",
+                "givenName": "Sei-ichiro",
+                "familyName": "WATANABE",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "WATANABE, Sei-ichiro"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "渡辺 誠一郎"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://en.nagoya-u.ac.jp/",
+                    "sameAs": "https://ror.org/04chrp450",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Nagoya University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "名古屋大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6076-3614",
+                "givenName": "Seiji",
+                "familyName": "SUGITA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "SUGITA, Seiji"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "杉田 精司"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.u-tokyo.ac.jp/en/",
+                    "sameAs": "https://ror.org/057zh3y96",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "The University of Tokyo"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "東京大学"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0001-6381-8107",
+                "givenName": "Tatsuaki",
+                "familyName": "OKADA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "OKADA, Tatsuaki"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "岡田 達明"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                                      
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-3118-7475",
+                "givenName": "Makoto",
+                "familyName": "YOSHIKAWA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YOSHIKAWA, Makoto"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "吉川 真"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.jaxa.jp/",
+                    "sameAs": "https://ror.org/059yhyy33",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "JAXA > Japan Aerospace Exploration Agency"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "宇宙航空研究開発機構"
+                        }
+                                      
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "sameAs": "https://orcid.org/0000-0002-4625-5362",
+                "givenName": "Hikaru",
+                "familyName": "YABUTA",
+                "name": [
+                    {
+                        "@language": "en",
+                        "@value": "YABUTA, Hikaru"
+                    },
+                    {
+                        "@language": "ja",
+                        "@value": "薮田 ひかる"
+                    }
+                ],
+                "affiliation": {
+                    "@type": "Organization",
+                    "url": "https://www.hiroshima-u.ac.jp/en",
+                    "sameAs": "https://ror.org/03t78wx29",
+                    "name": [
+                        {
+                            "@language": "en",
+                            "@value": "Hiroshima University"
+                        },
+                        {
+                            "@language": "ja",
+                            "@value": "広島大学"
+                        }
+                                      
+                    ]
+                }
+            }
+       ]
+    },
+    "sameAs": "https://doi.org/10.17597/isas.darts/hyb2-00800",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": ["?", "CSV", "XML"],
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds4/data/hyb2/hyb2_mascot_mascam/"
+        }
+    ],
+    "temporalCoverage": [
+        "2018-10-03T01:57:19Z/2018-10-03T19:03:52Z"
+    ]
+}

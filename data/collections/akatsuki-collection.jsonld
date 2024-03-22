@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "@id": "darts:akatsuki-collection",
+    "name": "AKATSUKI Collection",
+    "description": "Collection of Akatsuki data",
+    "url": "https://darts.isas.jaxa.jp/planet/project/akatsuki/",
+    "version": "na",
+    "keywords": [
+        "Akatsuki",
+        "Venus",
+        "Planetary"
+    ],
+    "license": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://www.jaxa.jp/",
+            "sameAs": "https://ror.org/059yhyy33",
+            "name": "JAXA > Japan Aerospace Exploration Agency"
+        },
+        {
+            "@type": "Organization",
+            "url": "https://www.isas.jaxa.jp/",
+            "sameAs": "https://ror.org/034gcgw60",
+            "name": "ISAS > Institute of Space and Astronautical Science",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "DARTS help desk",
+                "email": "darts-admin@ML.isas.jaxa.jp"
+            }
+        }
+    ],
+    "sameAs": "https://doi.org/10.17597/isas.darts/vco-00017",
+    "isAccessibleForFree": "true",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "encodingFormat": "FITS",
+            "contentUrl": "https://data.darts.isas.jaxa.jp/pub/pds3/extras/vco_ir1_l3_v1.0/"
+        }
+    ],
+    "temporalCoverage": "../.."
+}
